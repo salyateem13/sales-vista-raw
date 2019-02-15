@@ -1,0 +1,113 @@
+/*******************
+	Buttons
+********************/
+
+//Change the styles to match the design
+%btn-shared{
+	color:$white;
+	text-decoration:none;
+	@include fontsize(12,24);
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+	cursor:pointer;
+	font-weight:200;
+	@include breakpoint($lg) {
+		padding:10px 20px;
+		margin:10px 0;
+		letter-spacing: 1px;
+		min-width: 100px;
+		border: 1px;
+		border-style: solid;
+		border-radius: 3.6px;
+	}
+	@include transition();
+	background-color: green;
+	&:hover{
+		color:$white;
+		text-decoration: none;		
+		background-color: rgba(0, 0, 255, 0.28); 
+	}//hover	
+}//btn
+
+.nav-cta-white{
+	@extend %btn-shared;
+	background: transparent;
+	@include breakpoint($lg) {
+
+		border-color: white;  
+		margin-right: 18px;
+	}
+
+}
+
+.nav-cta-green{
+	@extend %btn-shared;
+	background-color: #72be1e;
+	@include breakpoint($md) {
+
+	}
+	
+	@include breakpoint($lg) {
+		box-shadow: 0 2px 0 0 $darkgreen;
+		border: 1px;
+		border-style: solid;
+		border-color: #72be1e ;
+	}
+	&:hover{
+		background-color: #487910; 
+		border-color: transparent;
+	}
+}
+
+.main-cta-green{
+	@extend %btn-shared;
+	background-color: $green;
+	display: inline-block;
+  	border-radius: 5px;
+	box-shadow: 0 2px 0 0 $darkgreen;
+	margin-top: 3rem;
+	padding: .75rem 1.5rem .75rem 1.5rem;
+	width: 75%;
+	&:hover{
+		background-color: #487910; 
+		border-color: transparent;
+	}
+	@include breakpoint($md){
+		width:0;
+	}
+
+}
+
+
+.open-submenu {
+	position: absolute;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	right: 30px;
+	-webkit-transition: all ease-in-out 150ms;
+	transition: all ease-in-out 150ms;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	border: solid #ffffff;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 4px;
+	width: 15px !important;
+	height: 15px !important;
+	float: right;
+	margin-right: 15px;
+	margin-top: 5px;
+	background-color: transparent;
+
+	@include breakpoint($lg) {
+	display: none;
+	}
+}
+
+.open-submenu-activated{
+	transform: rotateZ(-135deg);
+}
+

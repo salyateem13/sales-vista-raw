@@ -1,0 +1,33 @@
+.hero{
+    background: url("../res/group-8@2x.png");
+   
+    background-size: cover; /* or contain depending on what you want */
+  	background-position: center center;
+    background-repeat: no-repeat;
+    margin:-100px 0 0 0;
+    padding:100px 0 0 0;
+    .hero-board{
+        padding: 0 10% 0 10%;
+        text-align: center;
+    
+        display: block;
+        h1{
+            
+            padding: 0 20% 0 20%;
+        }
+        p{
+            display: inline-block;
+            width: 75%; 
+        }
+        a{
+          
+        }
+    }
+    .hero-img{
+        img{
+            display: block;
+            position: relative;
+            width: 100%;
+        }//hero img
+    }// hero-img div
+}//hero div

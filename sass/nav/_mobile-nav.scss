@@ -1,0 +1,207 @@
+.headermb{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    height: 100px;
+    z-index: 1;
+
+    @include breakpoint($md) {
+         
+    }
+    
+    @include breakpoint($lg) {
+        height: 2em;
+        justify-content: space-around;
+        align-items: center;   
+    }
+    .header-logo{ 
+        padding: 2em 0 0 0;
+    
+
+        @include breakpoint($md) {
+            
+        }
+        @include breakpoint($lg){
+            padding: 2.75em 0 0 3em;
+        }
+        @include breakpoint($xl){
+            padding: 2.75em 0 0 5em;
+        }
+       a{
+            img{
+         
+                @include breakpoint($md) {
+                    margin-left: 0;
+                    width: 100%;
+                }
+            }//logo img
+        }//logo anchor
+    }//header logo div
+    .header-responsive{
+        display: none;
+        position: absolute;
+        top: 0;
+        padding-top:100px;
+        left: 0;
+        right:0;
+        z-index: -1;
+        background-color: #1f2a37;
+        
+        @include breakpoint($lg) {
+            top: 0;
+            margin-top: 0;
+            position: relative;
+            display: block !important;
+            width: 100%;
+            padding: 2.5em 0 0 0;
+            background-color: transparent;
+        }
+        @include breakpoint($xl) {
+            top: 0;
+            margin-top: 0;
+            position: relative;
+            display: block !important;
+            width: 100%;
+            padding: 2.5em 0 0 3.5em;
+            background-color: transparent;
+        }
+         nav{ 
+
+            @include breakpoint($lg){
+                display: flex;
+                justify-content: space-between;
+                background-color: transparent;
+                align-items: center; 
+            }    
+             ul{
+                width: 100%;
+                margin:0;
+                padding:0;
+                @include breakpoint($lg){
+                    text-align: center;
+                }
+
+                &.nav-mainlist{
+                    flex-grow: 2;
+                    width: 100%;
+                    li {
+                        &:first-child{
+                            padding: 0;//remove padding from first li. already applied padding to div
+                        }
+                        @include breakpoint($lg){
+                            padding: 0 0 0 1.5em;
+                        }
+                        div{
+                            padding: .5em .5em .5em .5em;//add padding to only div rather than li as to not upset submenu 
+                        } //div containing a tag and submenu toglt
+                    }
+                }//Navigation main list
+                &.nav-ctalist{
+                    flex-grow: 1;
+                    width: 100%;
+                    @include breakpoint($lg) {
+                        max-width: 25%;
+                        width: 45%;
+                        display:flex;
+                        justify-content:flex-end; 
+                        margin-right: 3em;
+                    }
+                    li:last-child{
+                        background-color: #72be1e;
+                        border-bottom: none;
+                        @include breakpoint($lg) {
+                        background-color: transparent;
+                        }
+                    }
+                }//Navigation call to action List
+
+                
+                 li{
+                        border-top: 1px;
+                        border-style: solid;
+                        border-color: white;
+                        padding: .5em .5em .5em .5em;
+                        @include breakpoint($lg) {
+                            //width: 100%;
+                            border-top: 0px;
+                            padding: 0 0 0 0;
+                            border-bottom: none;
+                            display: inline-block;
+                            position: relative;
+                        }
+
+                    a{
+                        text-transform: uppercase; 
+                        font-size: 16px;
+                        line-height: normal;
+                        @include breakpoint($lg) {
+                            text-transform: none; 
+                        }
+                    }
+
+                    ul{
+                        display:none;
+                        background: #4ea9fb !important;
+                        @include breakpoint($lg) {
+                        position: absolute;
+                        top: 100%;
+                        min-width: 170px;
+                        left: -50%;
+                        
+                        }
+                        li{
+                            min-width: 170px;
+                            float: none;
+                            border-top: 1px;
+                            border-style: solid;
+                            border-color: white;
+                            padding: .5em .5em .5em .5em !important;                           
+                            @include breakpoint($lg) {
+                                //position: absolute;
+                                width: 100%;
+                                
+                            }
+                            a{
+                                display: block;
+                                margin-bottom: 0;
+                            }
+                        }//Dropdown list item
+                    }//Dropdown Menu List
+                    
+                    &:hover > ul {
+                        @include breakpoint($lg) {
+                        display: inline-block;
+                        }
+                    }
+
+                 .submenu-item-open{
+                    display: inline-block;
+
+                 }
+                }//nav list items
+             }//Navigation List
+         }//Nav Container
+    }//Header Container
+    .header-hamburger {
+        position: absolute;
+        right: 1em;
+        @include breakpoint($md) {
+            right: 1.5em;
+        }
+
+        @include breakpoint($lg) {
+            display: none;
+        }
+        
+    }
+}
+
+
+
+
+.dark-background{
+    background-color: #1f2a37;
+}
+
+
