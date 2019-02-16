@@ -12,6 +12,14 @@ $(document).ready(function() {              // attach a handler to an event for 
     });
    
 });
+
+$(window).scroll(function(){
+    var sticky = $('.headermb'),
+        scroll = $(window).scrollTop();
+  
+    if (scroll >= 1) sticky.addClass('fixed dark-background');
+    else sticky.removeClass('fixed dark-background');
+  });
   
 /*
 

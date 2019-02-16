@@ -2,7 +2,7 @@
 h1,h2,h3,h4,h5,h6,
 .h1,.h2,.h3,.h4,.h5,.h6, a,{
 	margin-bottom: 35px;
-	color: $soft-blue;
+	color: white;
 	font-family: aller, sans-serif;
 	font-style: normal;
 	font-weight: 300;
@@ -10,6 +10,7 @@ h1,h2,h3,h4,h5,h6,
 
 h1,
 .h1 {	
+	color: $soft-blue;
 	@include fontsize(52, 52);	
 	@include breakpoint($md) {
 		@include fontsize(56,52);
@@ -44,6 +45,7 @@ h3,
 
 h4,
 .h4 {
+	color: white;
 	@include fontsize(20,30);
 	@include breakpoint($sm) {
 		@include fontsize(24,34);

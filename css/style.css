@@ -309,7 +309,7 @@ sub {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, a {
   margin-bottom: 35px;
-  color: #4ea9fb;
+  color: white;
   font-family: aller, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -318,6 +318,7 @@ h1, h2, h3, h4, h5, h6,
 /* line 11, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h1,
 .h1 {
+  color: #4ea9fb;
   font-size: 52px;
   line-height: 52px;
   font-size: 3.25rem;
@@ -335,14 +336,14 @@ h1,
   }
 }
 
-/* line 19, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 20, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 .h1-white {
   color: white;
   font-size: xx-large;
 }
 
 @media (min-width: 768px) {
-  /* line 19, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+  /* line 20, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
   .h1-white {
     font-size: 56px;
     line-height: 52px;
@@ -351,7 +352,7 @@ h1,
   }
 }
 
-/* line 27, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 28, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h2,
 .h2 {
   font-size: 28px;
@@ -361,7 +362,7 @@ h2,
 }
 
 @media (min-width: 992px) {
-  /* line 27, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+  /* line 28, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
   h2,
   .h2 {
     font-size: 40px;
@@ -371,7 +372,7 @@ h2,
   }
 }
 
-/* line 36, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 37, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h3,
 .h3 {
   color: black;
@@ -382,7 +383,7 @@ h3,
 }
 
 @media (min-width: 768px) {
-  /* line 36, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+  /* line 37, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
   h3,
   .h3 {
     font-size: 28px;
@@ -392,9 +393,10 @@ h3,
   }
 }
 
-/* line 45, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 46, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h4,
 .h4 {
+  color: white;
   font-size: 20px;
   line-height: 30px;
   font-size: 1.25rem;
@@ -402,7 +404,7 @@ h4,
 }
 
 @media (min-width: 768px) {
-  /* line 45, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+  /* line 46, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
   h4,
   .h4 {
     font-size: 24px;
@@ -412,7 +414,7 @@ h4,
   }
 }
 
-/* line 53, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 55, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h5,
 .h5 {
   font-size: 22px;
@@ -421,7 +423,7 @@ h5,
   line-height: 1.875rem;
 }
 
-/* line 58, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 60, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h6,
 .h6 {
   font-size: 18px;
@@ -430,7 +432,7 @@ h6,
   line-height: 1.75rem;
 }
 
-/* line 63, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 65, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p,
 .p {
   color: white;
@@ -443,13 +445,13 @@ p,
   text-align: center;
 }
 
-/* line 70, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 72, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p:last-child,
 .p:last-child {
   margin-bottom: 0;
 }
 
-/* line 71, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 73, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p small,
 .p small {
   font-size: 12px;
@@ -458,7 +460,7 @@ p small,
   line-height: 1.125rem;
 }
 
-/* line 74, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 76, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p.lead,
 .p.lead {
   font-size: 20px;
@@ -468,7 +470,7 @@ p.lead,
 }
 
 @media (min-width: 992px) {
-  /* line 74, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+  /* line 76, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
   p.lead,
   .p.lead {
     font-size: 24px;
@@ -478,7 +480,7 @@ p.lead,
   }
 }
 
-/* line 80, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 82, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p.text-16,
 .p.text-16 {
   font-size: 16px;
@@ -487,7 +489,7 @@ p.text-16,
   line-height: 2.25rem;
 }
 
-/* line 86, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 88, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 a {
   color: white;
   text-decoration: none;
@@ -497,13 +499,13 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 95, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 97, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 ul li {
   font-size: 22px;
   font-weight: 300;
 }
 
-/* line 102, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 104, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 .black-text {
   color: black;
 }
@@ -2392,7 +2394,7 @@ a img.aligncenter {
 /* line 34, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger {
   position: relative;
-  padding: 37px 37px;
+  padding: 37px 20px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -2419,7 +2421,7 @@ a img.aligncenter {
 
 /* line 82, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger-box {
-  width: 50px;
+  width: 42px;
   height: 28px;
   display: block;
   position: relative;
@@ -2435,7 +2437,7 @@ a img.aligncenter {
 
 /* line 95, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-  width: 50px;
+  width: 42px;
   height: 4px;
   background-color: #ffffff;
   border-radius: 0px;
@@ -2489,7 +2491,7 @@ a img.aligncenter {
 
 /* line 148, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger--slider.is-active .hamburger-inner::before {
-  transform: rotate(-45deg) translate3d(-7.14286px, -8px, 0);
+  transform: rotate(-45deg) translate3d(-6px, -8px, 0);
   opacity: 0;
 }
 
@@ -2575,7 +2577,7 @@ a img.aligncenter {
 /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   position: relative;
   height: 120px;
   z-index: 1;
@@ -2591,8 +2593,7 @@ a img.aligncenter {
 @media (min-width: 1200px) {
   /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb {
-    height: 2em;
-    justify-content: spa2ce-around;
+    justify-content: space-around;
     align-items: center;
   }
 }
@@ -2612,14 +2613,14 @@ a img.aligncenter {
 @media (min-width: 1200px) {
   /* line 23, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-logo a img {
-    padding: 2.75em 0 0 2.75em;
+    padding: 0.5em 0 0 2.75em;
   }
 }
 
 @media (min-width: 1440px) {
   /* line 23, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-logo a img {
-    padding: 2.75em 0 0 2.75em;
+    padding: 0.5em 0 0 2.75em;
   }
 }
 
@@ -2643,7 +2644,7 @@ a img.aligncenter {
     position: relative;
     display: block !important;
     width: 100%;
-    padding: 2.5em 0 0 0;
+    padding: .5em 0 0 0;
     background-color: transparent;
   }
 }
@@ -2656,7 +2657,7 @@ a img.aligncenter {
     position: relative;
     display: block !important;
     width: 100%;
-    padding: 2.5em 0 0 3.5em;
+    padding: .5em 0 0 3.5em;
     background-color: transparent;
   }
 }
@@ -2687,35 +2688,54 @@ a img.aligncenter {
 
 /* line 82, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-mainlist {
-  flex-grow: 2;
   width: 100%;
 }
 
-/* line 86, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+@media (min-width: 1600px) {
+  /* line 82, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  .headermb .header-responsive nav ul.nav-mainlist {
+    margin-left: 3em;
+  }
+}
+
+@media (min-width: 2000px) {
+  /* line 82, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  .headermb .header-responsive nav ul.nav-mainlist {
+    margin-left: 6em;
+  }
+}
+
+@media (min-width: 2200px) {
+  /* line 82, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  .headermb .header-responsive nav ul.nav-mainlist {
+    margin-left: 10em;
+  }
+}
+
+/* line 95, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-mainlist li:first-child {
   padding: 0;
 }
 
 @media (min-width: 1200px) {
-  /* line 85, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 94, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul.nav-mainlist li {
     padding: 0 0 0 1.5em;
   }
 }
 
-/* line 92, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 101, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-mainlist li div {
   padding: .5em .5em .5em .5em;
 }
 
-/* line 97, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 106, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-ctalist {
-  flex-grow: 1;
   width: 100%;
 }
 
 @media (min-width: 1200px) {
-  /* line 97, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 106, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul.nav-ctalist {
     width: 45%;
     display: flex;
@@ -2724,20 +2744,20 @@ a img.aligncenter {
   }
 }
 
-/* line 106, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 115, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-ctalist li:last-child {
   background-color: #72be1e;
   border-bottom: none;
 }
 
 @media (min-width: 1200px) {
-  /* line 106, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 115, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul.nav-ctalist li:last-child {
     background-color: transparent;
   }
 }
 
-/* line 116, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 125, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li {
   border-top: 1px;
   border-style: solid;
@@ -2746,7 +2766,7 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 116, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 125, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li {
     border-top: 0px;
     padding: 0 0 0 0;
@@ -2756,7 +2776,7 @@ a img.aligncenter {
   }
 }
 
-/* line 130, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 139, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li a {
   text-transform: uppercase;
   font-size: 16px;
@@ -2764,20 +2784,20 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 130, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 139, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li a {
     text-transform: none;
   }
 }
 
-/* line 139, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 148, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li ul {
   display: none;
-  background: #4ea9fb !important;
+  background: #4ea9fb;
 }
 
 @media (min-width: 1200px) {
-  /* line 139, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 148, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li ul {
     position: absolute;
     top: 100%;
@@ -2786,7 +2806,7 @@ a img.aligncenter {
   }
 }
 
-/* line 149, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 158, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li ul li {
   min-width: 170px;
   float: none;
@@ -2797,53 +2817,63 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 149, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 158, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li ul li {
     width: 100%;
   }
 }
 
-/* line 161, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 170, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li ul li a {
   display: block;
   margin-bottom: 0;
 }
 
 @media (min-width: 1200px) {
-  /* line 168, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 177, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li:hover > ul {
+    background: #72be1e;
+    border-style: none !important;
     display: inline-block;
   }
 }
 
-/* line 174, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 186, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li .submenu-item-open {
   display: inline-block;
 }
 
-/* line 182, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 194, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-hamburger {
   position: absolute;
   right: .5rem;
 }
 
 @media (min-width: 992px) {
-  /* line 182, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 194, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-hamburger {
     right: 1.5em;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 182, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 194, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-hamburger {
     display: none;
   }
 }
 
-/* line 199, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 209, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .dark-background {
   background-color: #1f2a37;
+}
+
+/* line 214, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_hero.scss */
@@ -2867,22 +2897,23 @@ a img.aligncenter {
 
 /* line 13, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_hero.scss */
 .hero .hero-board {
+  height: 2000px;
   text-align: center;
   display: block;
 }
 
 /* line 17, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_hero.scss */
 .hero .hero-board h1 {
-  padding: 0 20% 0 20%;
+  padding: 0 15% 0 15%;
 }
 
-/* line 21, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_hero.scss */
+/* line 20, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_hero.scss */
 .hero .hero-board p {
   display: inline-block;
   width: 75%;
 }
 
-/* line 30, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_hero.scss */
+/* line 29, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_hero.scss */
 .hero .hero-img img {
   display: block;
   position: relative;

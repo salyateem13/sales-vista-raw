@@ -1,6 +1,6 @@
 .headermb{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     position: relative;
     height: 120px;
     z-index: 1;
@@ -10,8 +10,8 @@
     }
     
     @include breakpoint($lg) {
-        height: 2em;
-        justify-content: spa2ce-around;
+    
+        justify-content: space-around;
         align-items: center;   
     }
     .header-logo{ 
@@ -27,10 +27,10 @@
                     margin-left: 0;
                 }
                 @include breakpoint($lg){
-                    padding: 2.75em 0 0 2.75em ;
+                    padding: 0.5em 0 0 2.75em ;
                 }
                 @include breakpoint($xl){
-                    padding: 2.75em 0 0 2.75em ;
+                    padding: 0.5em 0 0 2.75em ;
                 }
             }//logo img
         }//logo anchor
@@ -51,7 +51,7 @@
             position: relative;
             display: block !important;
             width: 100%;
-            padding: 2.5em 0 0 0;
+            padding: .5em 0 0 0;
             background-color: transparent;
         }
         @include breakpoint($xl) {
@@ -60,7 +60,7 @@
             position: relative;
             display: block !important;
             width: 100%;
-            padding: 2.5em 0 0 3.5em;
+            padding: .5em 0 0 3.5em;
             background-color: transparent;
         }
          nav{ 
@@ -80,8 +80,17 @@
                 }
 
                 &.nav-mainlist{
-                    flex-grow: 2;
+                   
                     width: 100%;
+                    @include breakpoint(1600px){
+                        margin-left: 3em;
+                    }
+                    @include breakpoint(2000px){
+                        margin-left: 6em;
+                    }
+                    @include breakpoint(2200px){
+                        margin-left: 10em;
+                    }
                     li {
                         &:first-child{
                             padding: 0;//remove padding from first li. already applied padding to div
@@ -95,7 +104,7 @@
                     }
                 }//Navigation main list
                 &.nav-ctalist{
-                    flex-grow: 1;
+                 
                     width: 100%;
                     @include breakpoint($lg) {
                         width: 45%;
@@ -138,7 +147,7 @@
 
                     ul{
                         display:none;
-                        background: #4ea9fb !important;
+                        background: #4ea9fb;
                         @include breakpoint($lg) {
                         position: absolute;
                         top: 100%;
@@ -166,7 +175,10 @@
                     }//Dropdown Menu List
                     
                     &:hover > ul {
+                       
                         @include breakpoint($lg) {
+                        background: $green;
+                        border-style: none !important;
                         display: inline-block;
                         }
                     }
@@ -185,11 +197,9 @@
         @include breakpoint($md) {
             right: 1.5em;
         }
-
         @include breakpoint($lg) {
             display: none;
         }
-        
     }
 }
 
@@ -201,3 +211,7 @@
 }
 
 
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; }
