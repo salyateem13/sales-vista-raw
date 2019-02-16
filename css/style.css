@@ -2404,12 +2404,12 @@ a img.aligncenter {
   opacity: 1;
 }
 
-/* line 64, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 65, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger.is-active:hover {
   opacity: 1;
 }
 
-/* line 81, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 82, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger-box {
   width: 50px;
   height: 28px;
@@ -2418,14 +2418,14 @@ a img.aligncenter {
   margin: 0 auto;
 }
 
-/* line 89, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 90, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger-inner {
   display: block;
   top: 50%;
   margin-top: -2px;
 }
 
-/* line 94, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 95, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 50px;
   height: 4px;
@@ -2437,18 +2437,18 @@ a img.aligncenter {
   transition-timing-function: ease;
 }
 
-/* line 107, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 108, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger-inner::before, .hamburger-inner::after {
   content: "";
   display: block;
 }
 
-/* line 113, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 114, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger-inner::before {
   top: -12px;
 }
 
-/* line 117, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 118, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger-inner::after {
   bottom: -12px;
 }
@@ -2456,12 +2456,12 @@ a img.aligncenter {
 /*
    * Slider
    */
-/* line 126, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 127, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger--slider .hamburger-inner {
   top: 2px;
 }
 
-/* line 129, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 130, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger--slider .hamburger-inner::before {
   top: 12px;
   transition-property: transform, opacity;
@@ -2469,23 +2469,23 @@ a img.aligncenter {
   transition-duration: 0.15s;
 }
 
-/* line 136, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 137, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger--slider .hamburger-inner::after {
   top: 24px;
 }
 
-/* line 142, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 143, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger--slider.is-active .hamburger-inner {
   transform: translate3d(0, 12px, 0) rotate(45deg);
 }
 
-/* line 147, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 148, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger--slider.is-active .hamburger-inner::before {
   transform: rotate(-45deg) translate3d(-7.14286px, -8px, 0);
   opacity: 0;
 }
 
-/* line 152, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
+/* line 153, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger--slider.is-active .hamburger-inner::after {
   transform: translate3d(0, -24px, 0) rotate(-90deg);
 }
