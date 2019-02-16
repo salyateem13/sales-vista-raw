@@ -1,13 +1,12 @@
 .headermb{
     display: flex;
     justify-content: center;
-    width: 100%;
     position: relative;
-    height: 100px;
+    height: 120px;
     z-index: 1;
 
     @include breakpoint($md) {
-         
+        height: 100px;
     }
     
     @include breakpoint($lg) {
@@ -16,7 +15,7 @@
         align-items: center;   
     }
     .header-logo{ 
-        padding: 2em 0 0 0;
+       
     
 
         @include breakpoint($md) {
@@ -26,14 +25,16 @@
             padding: 2.75em 0 0 3em;
         }
         @include breakpoint($xl){
-            padding: 2.75em 0 0 5em;
+            padding: 2.75em 0 0 0;
         }
        a{
             img{
-         
+
+                padding: 1.5em 0 0 0;
+                height: fit-content;
                 @include breakpoint($md) {
                     margin-left: 0;
-                    width: 100%;
+                    
                 }
             }//logo img
         }//logo anchor
@@ -185,7 +186,7 @@
     }//Header Container
     .header-hamburger {
         position: absolute;
-        right: 1em;
+        right: .5rem;
         @include breakpoint($md) {
             right: 1.5em;
         }
