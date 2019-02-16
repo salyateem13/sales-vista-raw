@@ -17,11 +17,11 @@ h1,
 }//h1
 
 .h1-white{
-	margin-bottom: 35px;
-	color: $white;
-	font-family: aller, sans-serif;
-	font-style: normal;
-	font-weight: 300;
+	color: white;
+	font-size: xx-large;
+	@include breakpoint($sm){
+		@include fontsize(56,52);
+	}
 }
 
 h2,
