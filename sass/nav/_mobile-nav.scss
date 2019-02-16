@@ -11,30 +11,29 @@
     
     @include breakpoint($lg) {
         height: 2em;
-        justify-content: space-around;
+        justify-content: spa2ce-around;
         align-items: center;   
     }
     .header-logo{ 
-       
+       align-content: center;
     
 
         @include breakpoint($md) {
             
         }
-        @include breakpoint($lg){
-            padding: 2.75em 0 0 3em;
-        }
-        @include breakpoint($xl){
-            padding: 2.75em 0 0 0;
-        }
+
        a{
             img{
 
-                padding: 1.5em 0 0 0;
-                height: fit-content;
+               padding: 1.5em 0 0 0;
                 @include breakpoint($md) {
                     margin-left: 0;
-                    
+                }
+                @include breakpoint($lg){
+                    padding: 2.75em 0 0 2.75em ;
+                }
+                @include breakpoint($xl){
+                    padding: 2.75em 0 0 2.75em ;
                 }
             }//logo img
         }//logo anchor

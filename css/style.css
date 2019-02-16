@@ -2584,39 +2584,43 @@ a img.aligncenter {
   /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb {
     height: 2em;
-    justify-content: space-around;
+    justify-content: spa2ce-around;
     align-items: center;
   }
 }
 
-@media (min-width: 1200px) {
-  /* line 17, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
-  .headermb .header-logo {
-    padding: 2.75em 0 0 3em;
-  }
+/* line 17, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+.headermb .header-logo {
+  align-content: center;
 }
 
-@media (min-width: 1440px) {
-  /* line 17, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
-  .headermb .header-logo {
-    padding: 2.75em 0 0 0;
-  }
-}
-
-/* line 31, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 26, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-logo a img {
   padding: 1.5em 0 0 0;
-  height: fit-content;
 }
 
 @media (min-width: 992px) {
-  /* line 31, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 26, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-logo a img {
     margin-left: 0;
   }
 }
 
-/* line 42, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+@media (min-width: 1200px) {
+  /* line 26, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  .headermb .header-logo a img {
+    padding: 2.75em 0 0 2.75em;
+  }
+}
+
+@media (min-width: 1440px) {
+  /* line 26, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  .headermb .header-logo a img {
+    padding: 2.75em 0 0 2.75em;
+  }
+}
+
+/* line 41, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive {
   display: none;
   position: absolute;
@@ -2629,7 +2633,7 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 42, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 41, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive {
     top: 0;
     margin-top: 0;
@@ -2642,7 +2646,7 @@ a img.aligncenter {
 }
 
 @media (min-width: 1440px) {
-  /* line 42, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 41, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive {
     top: 0;
     margin-top: 0;
@@ -2655,7 +2659,7 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 70, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 69, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav {
     display: flex;
     justify-content: space-between;
@@ -2664,7 +2668,7 @@ a img.aligncenter {
   }
 }
 
-/* line 78, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 77, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul {
   width: 100%;
   margin: 0;
@@ -2672,43 +2676,43 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 78, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 77, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul {
     text-align: center;
   }
 }
 
-/* line 86, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 85, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-mainlist {
   flex-grow: 2;
   width: 100%;
 }
 
-/* line 90, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 89, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-mainlist li:first-child {
   padding: 0;
 }
 
 @media (min-width: 1200px) {
-  /* line 89, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 88, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul.nav-mainlist li {
     padding: 0 0 0 1.5em;
   }
 }
 
-/* line 96, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 95, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-mainlist li div {
   padding: .5em .5em .5em .5em;
 }
 
-/* line 101, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 100, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-ctalist {
   flex-grow: 1;
   width: 100%;
 }
 
 @media (min-width: 1200px) {
-  /* line 101, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 100, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul.nav-ctalist {
     max-width: 25%;
     width: 45%;
@@ -2718,20 +2722,20 @@ a img.aligncenter {
   }
 }
 
-/* line 111, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 110, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul.nav-ctalist li:last-child {
   background-color: #72be1e;
   border-bottom: none;
 }
 
 @media (min-width: 1200px) {
-  /* line 111, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 110, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul.nav-ctalist li:last-child {
     background-color: transparent;
   }
 }
 
-/* line 121, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 120, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li {
   border-top: 1px;
   border-style: solid;
@@ -2740,7 +2744,7 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 121, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 120, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li {
     border-top: 0px;
     padding: 0 0 0 0;
@@ -2750,7 +2754,7 @@ a img.aligncenter {
   }
 }
 
-/* line 135, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 134, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li a {
   text-transform: uppercase;
   font-size: 16px;
@@ -2758,20 +2762,20 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 135, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 134, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li a {
     text-transform: none;
   }
 }
 
-/* line 144, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 143, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li ul {
   display: none;
   background: #4ea9fb !important;
 }
 
 @media (min-width: 1200px) {
-  /* line 144, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 143, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li ul {
     position: absolute;
     top: 100%;
@@ -2780,7 +2784,7 @@ a img.aligncenter {
   }
 }
 
-/* line 154, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 153, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li ul li {
   min-width: 170px;
   float: none;
@@ -2791,51 +2795,51 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 154, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 153, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li ul li {
     width: 100%;
   }
 }
 
-/* line 166, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 165, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li ul li a {
   display: block;
   margin-bottom: 0;
 }
 
 @media (min-width: 1200px) {
-  /* line 173, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 172, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-responsive nav ul li:hover > ul {
     display: inline-block;
   }
 }
 
-/* line 179, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 178, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li .submenu-item-open {
   display: inline-block;
 }
 
-/* line 187, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 186, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-hamburger {
   position: absolute;
   right: .5rem;
 }
 
 @media (min-width: 992px) {
-  /* line 187, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 186, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-hamburger {
     right: 1.5em;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 187, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 186, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-hamburger {
     display: none;
   }
 }
 
-/* line 204, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 203, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .dark-background {
   background-color: #1f2a37;
 }
@@ -2855,7 +2859,7 @@ a img.aligncenter {
   /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_hero.scss */
   .hero {
     margin-top: -100px;
-    padding-top: 100px;
+    padding-top: 160px;
   }
 }
 
