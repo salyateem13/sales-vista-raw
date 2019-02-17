@@ -1,4 +1,23 @@
 .footer {
+	background-color: $dark;
+	height: 147px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	@include breakpoint($lg){
+		flex-direction: row;
+	}
+
+	ul{
+		align-self: center;
+		display: flex;
+		li{
+			a{
+		
+			}
+		}
+	}
 	.footer-docs {
 	}//site-footer
 

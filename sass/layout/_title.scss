@@ -1,5 +1,10 @@
 .title{
     text-align: center;
-    
-
+    padding: 3em 3em 0em 3em;
+    @include breakpoint($lg){
+        padding: 5em 7em 0em 7em;
+    }
+    @include breakpoint($xl){
+        padding: 5em 18% 0em 18%;
+    }
 }
