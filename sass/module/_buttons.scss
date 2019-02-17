@@ -6,7 +6,7 @@
 %btn-shared{
 	color:$white;
 	text-decoration:none;
-	@include fontsize(12,24);
+	@include fontsize(12,26);
 	-webkit-appearance: none;
 	-moz-appearance:    none;
 	appearance:         none;
@@ -64,18 +64,18 @@
 	@extend %btn-shared;
 	background-color: $green;
 	display: inline-block;
-	  border-radius: 5px;
-	  border-color: transparent;
+	border-radius: 5px;
+	border-color: transparent;
 	box-shadow: 0 2px 0 0 $darkgreen;
 	margin-top: 3rem;
 	padding: .75rem 1.5rem .75rem 1.5rem;
-	width: 75%;
+
 	&:hover{
 		background-color: #487910; 
 		border-color: transparent;
 	}
 	@include breakpoint($md){
-		width:0;
+	
 	}
 
 }

@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,
 
 h1,
 .h1 {	
-	color: $soft-blue;
+	color: $white;
 	@include fontsize(52, 52);	
 	@include breakpoint($md) {
 		@include fontsize(56,52);
@@ -23,6 +23,9 @@ h1,
 	@include breakpoint($sm){
 		@include fontsize(56,52);
 	}
+}
+.h1-blue{
+	color: $soft-blue;
 }
 
 h2,
@@ -63,10 +66,10 @@ h6,
 }//h6
 
 p,
-.p {
+.p{
 	color: white ;
 	font-weight: 300;
-	@include fontsize(14, 28);
+	@include fontsize(18, 28);
 	margin-bottom: 35px;
 	text-align: center;
 	&:last-child{ margin-bottom: 0; }//last-child
@@ -83,6 +86,11 @@ p,
 		@include fontsize(16, 36);
 	}
 }//p
+
+
+.p-black{
+	color: black ;
+}
 
 
 a{

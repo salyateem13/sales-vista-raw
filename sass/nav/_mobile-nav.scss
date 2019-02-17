@@ -151,7 +151,7 @@
                         position: absolute;
                         top: 100%;
                         min-width: 170px;
-                        left: -50%;
+                        left: -80%;
                         
                         }
                         li{
@@ -164,6 +164,9 @@
                             @include breakpoint($lg) {
                                 //position: absolute;
                                 width: 100%;
+                                border-top: 0;
+                                border-style: none;
+                                border-color: transparent;
                                 
                             }
                             a{
@@ -172,7 +175,7 @@
                             }
                         }//Dropdown list item
                     }//Dropdown Menu List
-                    
+                    // :hover
                     &:hover > ul {
                        
                         @include breakpoint($lg) {
