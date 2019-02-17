@@ -503,19 +503,23 @@ p.text-16,
 a {
   color: white;
   text-decoration: none;
+  font-size: 18px;
+  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-/* line 105, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 106, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 ul li {
   font-size: 22px;
   font-weight: 300;
 }
 
-/* line 112, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 113, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 .black-text {
   color: black;
 }
@@ -2263,9 +2267,9 @@ a img.aligncenter {
 .nav-cta-white, .nav-cta-green, .main-cta-green {
   color: #ffffff;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 26px;
-  font-size: 0.75rem;
+  font-size: 1.125rem;
   line-height: 1.625rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2396,7 +2400,7 @@ a img.aligncenter {
 /* line 34, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_hamburger-menu.scss */
 .hamburger {
   position: relative;
-  padding: 35px 5px;
+  padding: 35px 10px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -2845,37 +2849,37 @@ a img.aligncenter {
   }
 }
 
-/* line 188, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 189, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-responsive nav ul li .submenu-item-open {
   display: inline-block;
 }
 
-/* line 196, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 197, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .headermb .header-hamburger {
   position: absolute;
   right: .5rem;
 }
 
 @media (min-width: 992px) {
-  /* line 196, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 197, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-hamburger {
     right: 1.5em;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 196, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+  /* line 197, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
   .headermb .header-hamburger {
     display: none;
   }
 }
 
-/* line 211, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 212, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .dark-background {
   background-color: #1f2a37;
 }
 
-/* line 216, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
+/* line 217, /Users/samiralyateem/Projects/SalesVistaRaw/sass/nav/_mobile-nav.scss */
 .fixed {
   position: fixed;
   top: 0;

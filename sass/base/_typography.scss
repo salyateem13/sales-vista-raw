@@ -96,6 +96,7 @@ p,
 a{
 	color: white ;
 	text-decoration:none;
+	@include fontsize(18, 28);
 	@include transition();
 	&:hover{
 
