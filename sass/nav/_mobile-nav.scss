@@ -2,15 +2,13 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    height: 120px;
+    height: 100px;
     z-index: 1;
 
     @include breakpoint($md) {
         height: 100px;
-    }
-    
+    } 
     @include breakpoint($lg) {
-    
         justify-content: space-around;
         align-items: center;   
     }
@@ -21,16 +19,17 @@
 
        a{
             img{
-
+               height: 60%;
                padding: 1.85em 0 0 0;
                 @include breakpoint($md) {
+                    height: 70%;
                     margin-left: 0;
                 }
                 @include breakpoint($lg){
                     padding: 0.5em 0 0 2.75em ;
                 }
                 @include breakpoint($xl){
-                    padding: 0.5em 0 0 2.75em ;
+                    padding: 0.5em 0 0 3.5em ;
                 }
             }//logo img
         }//logo anchor
@@ -178,7 +177,7 @@
                        
                         @include breakpoint($lg) {
                         background: $green;
-                        border-style: none !important;
+                        border-color: transparent !important;
                         display: inline-block;
                         }
                     }
