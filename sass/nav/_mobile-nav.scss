@@ -19,8 +19,9 @@
 
        a{
             img{
-               height: 60%;
-               padding: 1.85em 0 0 0;
+               //height: 60%;
+               width: auto;
+               padding: 1.5em 0 0 0;
                 @include breakpoint($md) {
                     height: 70%;
                     margin-left: 0;
@@ -217,4 +218,5 @@
 .fixed {
     position: fixed;
     top:0; left:0;
-    width: 100%; }
+    width: 100%; 
+}

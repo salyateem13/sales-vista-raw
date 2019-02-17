@@ -17,7 +17,7 @@ $(window).scroll(function(){
     var sticky = $('.headermb'),
         scroll = $(window).scrollTop();
   
-    if (scroll >= 1) sticky.addClass('fixed dark-background');
+    if (scroll >= 100) sticky.addClass('fixed dark-background');
     else sticky.removeClass('fixed dark-background');
   });
   
