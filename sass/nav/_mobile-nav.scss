@@ -6,24 +6,29 @@
     z-index: 1;
 
     @include breakpoint($md) {
-        height: 100px;
+        height: 100px; 
     } 
     @include breakpoint($lg) {
         justify-content: space-around;
         align-items: center;   
     }
     .header-logo{ 
-        @include breakpoint($md) {
-            
-        }
 
+        height: auto; width: 200px;
+        @include breakpoint($md) {
+            width: 300px;  
+        }
+        @include breakpoint($lg) {
+            width: 375px;  
+        }
+        @include breakpoint($xl) {
+            width: 425px;  
+        }
        a{
             img{
-               //height: 60%;
-               width: auto;
+               width: 100%;
                padding: 1.5em 0 0 0;
                 @include breakpoint($md) {
-                    height: 70%;
                     margin-left: 0;
                 }
                 @include breakpoint($lg){
