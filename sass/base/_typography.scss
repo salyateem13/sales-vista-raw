@@ -18,7 +18,7 @@ h1,
 }//h1
 
 .h1-white{
-	color: white;
+	color: $white;
 	font-size: xx-large;
 	@include breakpoint($sm){
 		@include fontsize(56,52);
@@ -45,6 +45,14 @@ h3,
 		@include fontsize(28,38);
 	}//breakpoint($sm)
 }//h3
+
+.h3-white{
+	color: white;
+	@include fontsize(24,34);
+	@include breakpoint($sm) {
+		@include fontsize(28,38);
+	}//breakpoint($sm)
+}
 
 h4,
 .h4 {

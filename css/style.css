@@ -338,7 +338,7 @@ h1,
 
 /* line 20, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 .h1-white {
-  color: white;
+  color: #ffffff;
   font-size: xx-large;
 }
 
@@ -399,6 +399,25 @@ h3,
 }
 
 /* line 49, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+.h3-white {
+  color: white;
+  font-size: 24px;
+  line-height: 34px;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+}
+
+@media (min-width: 768px) {
+  /* line 49, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+  .h3-white {
+    font-size: 28px;
+    line-height: 38px;
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+}
+
+/* line 57, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h4,
 .h4 {
   color: white;
@@ -409,7 +428,7 @@ h4,
 }
 
 @media (min-width: 768px) {
-  /* line 49, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+  /* line 57, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
   h4,
   .h4 {
     font-size: 24px;
@@ -419,7 +438,7 @@ h4,
   }
 }
 
-/* line 58, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 66, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h5,
 .h5 {
   font-size: 22px;
@@ -428,7 +447,7 @@ h5,
   line-height: 1.875rem;
 }
 
-/* line 63, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 71, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 h6,
 .h6 {
   font-size: 18px;
@@ -437,7 +456,7 @@ h6,
   line-height: 1.75rem;
 }
 
-/* line 68, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 76, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p,
 .p {
   color: white;
@@ -450,13 +469,13 @@ p,
   text-align: center;
 }
 
-/* line 75, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 83, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p:last-child,
 .p:last-child {
   margin-bottom: 0;
 }
 
-/* line 76, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 84, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p small,
 .p small {
   font-size: 12px;
@@ -465,7 +484,7 @@ p small,
   line-height: 1.125rem;
 }
 
-/* line 79, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 87, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p.lead,
 .p.lead {
   font-size: 20px;
@@ -475,7 +494,7 @@ p.lead,
 }
 
 @media (min-width: 992px) {
-  /* line 79, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+  /* line 87, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
   p.lead,
   .p.lead {
     font-size: 24px;
@@ -485,7 +504,7 @@ p.lead,
   }
 }
 
-/* line 85, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 93, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 p.text-16,
 .p.text-16 {
   font-size: 16px;
@@ -494,12 +513,12 @@ p.text-16,
   line-height: 2.25rem;
 }
 
-/* line 91, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 99, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 .p-black {
   color: black;
 }
 
-/* line 96, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 104, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 a {
   color: white;
   text-decoration: none;
@@ -513,13 +532,13 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 106, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 114, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 ul li {
   font-size: 22px;
   font-weight: 300;
 }
 
-/* line 113, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
+/* line 121, /Users/samiralyateem/Projects/SalesVistaRaw/sass/base/_typography.scss */
 .black-text {
   color: black;
 }
@@ -2258,6 +2277,17 @@ a img.aligncenter {
   overflow: hidden;
   overflow-x: auto;
   white-space: nowrap;
+}
+
+/* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_cta.scss */
+.cta {
+  background: url("../res/group-8@2x.png");
+  background-size: cover;
+  /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 3em 5em 3em 5em;
 }
 
 /*******************
