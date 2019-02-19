@@ -2751,14 +2751,14 @@ a img.aligncenter {
   .infoshuffle .infoshuffle-row {
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 2em 0;
+    padding: 2em 0 1em 0em;
   }
 }
 
 @media (min-width: 992px) {
   /* line 3, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
   .infoshuffle .infoshuffle-row {
-    padding: 5em 6em 0em 6em;
+    padding: 2.5em 6em 0em 6em;
   }
 }
 
@@ -3469,7 +3469,7 @@ Body Container
   align-items: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_footer.scss */
   .footer {
     flex-direction: row;

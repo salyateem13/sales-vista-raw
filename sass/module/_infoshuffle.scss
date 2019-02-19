@@ -7,10 +7,10 @@
         @include breakpoint($sm){
             flex-direction: row;
             justify-content: space-evenly;
-            padding: 2em 0;
+            padding: 2em 0 1em 0em;
         }
         @include breakpoint($md){
-            padding: 5em 6em 0em 6em;
+            padding: 2.5em 6em 0em 6em;
         }
         @include breakpoint($lg){
             
@@ -65,7 +65,6 @@
                         @include fontsize(18,20);
                         font-weight: 300;
                     }//list item
-
                 }//list
             }
         }
