@@ -183,7 +183,7 @@
                             }
                         }//Dropdown list item
                     }//Dropdown Menu List
-                    // :hover
+                    
                     &:hover > ul {
                        
                         @include breakpoint($lg) {
@@ -192,6 +192,11 @@
                         display: inline-block;
                         
                         }
+                    }
+                    &:active{
+                        border-bottom: 1.5px;
+                        border-style: solid;
+                        border-color: white;  
                     }
 
                  .submenu-item-open{

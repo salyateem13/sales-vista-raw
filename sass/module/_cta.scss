@@ -4,5 +4,11 @@
   	background-position: center center;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 3em 3em 1em 3em;
-}
+    display: block;
+    vertical-align: middle;
+    padding: 3em 3em 3em 3em;
+    @include breakpoint($lg){
+      min-height: 225px
+    }
+    
+} 

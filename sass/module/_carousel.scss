@@ -2,23 +2,33 @@
     position: relative;
 
     .carousel-item{
-    
+        
         @include breakpoint($sm){
+          //  padding: 0 2em;
+        }
+        @include breakpoint($md){
             display:  flex;
             justify-content: center;
-             
+            align-content: center;
+            align-items: center;
         }
         .carousel-item-img{
-            height: auto; 
-            width: 100%;
-            align-content: center;
-            padding: 0em 2em 0em 2em;
+
+            align-self: center;
+           
+           // padding: 0em 2em 0em 2em;
             @include breakpoint($md){
+           
+            
+            }
+            @include breakpoint($lg){
+        
+
             }
          
             img{
-                
-                width: 100%;
+                height: 458px;
+                width: auto;    
             }
         }//carousel-item-img
 
