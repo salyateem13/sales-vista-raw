@@ -1,6 +1,6 @@
 .carousel{
     position: relative;
-    padding: 0em 2em 0 2em;
+
     .carousel-item{
     
         @include breakpoint($md){
@@ -12,7 +12,9 @@
             height: auto; 
             width: 100%;
             align-content: center;
-            padding: 0em 2em 0 2em;
+            padding: 0em 2em 0em 2em;
+            @include breakpoint($md){
+            }
          
             img{
                 
@@ -24,6 +26,10 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+            padding: 0em 2em 0em 2em;
+            @include breakpoint($md){
+            }
+         
       
             
           

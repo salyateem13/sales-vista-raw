@@ -9,7 +9,7 @@
             justify-content: space-evenly;
             padding: 5em 6em 0em 6em;
         }
-        &:nth-child(2n-1){
+        &:nth-child(2n+1){
             @include breakpoint($lg){
                 -ms-flex-align: center;
                 flex-direction: row-reverse;
