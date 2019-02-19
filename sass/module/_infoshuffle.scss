@@ -4,23 +4,32 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        @include breakpoint($lg){
+        @include breakpoint($sm){
             flex-direction: row;
             justify-content: space-evenly;
+            padding: 2em 0;
+        }
+        @include breakpoint($md){
             padding: 5em 6em 0em 6em;
         }
+        @include breakpoint($lg){
+            
+        }
         &:nth-child(2n+1){
-            @include breakpoint($lg){
-                -ms-flex-align: center;
+            @include breakpoint($sm){
                 flex-direction: row-reverse;
             }
         }
         
         .infoshuffle-row-img{
-            
-            height: auto; 
-            width: 100%;
+            //height: auto; 
+            //width: 100%;
             padding: 0 20px ;
+            display: inline-block;
+            vertical-align: middle;
+            @include breakpoint($sm){
+
+            }
             @include breakpoint($md){
 
             }
@@ -32,22 +41,32 @@
             }
             img{
                 width: 100%;
+                display: inline-block;
+                vertical-align: middle;
             }
         }
         .infoshuffle-row-text{
-                        margin: 0 2em 0 2em;
-            ul{
+            margin: 0 2em 0 2em;
+            ul{ margin-bottom: 1em;
                 
                 li{
                     border-bottom: 1px;
                     border-style: solid;
                     border-color: $light-gray;
                     padding: 1em 0em 1em 0em;
+                    @include fontsize(14,18);
+                    font-weight: 400;
+                    @include breakpoint($md){
+                      
+                        @include fontsize(16,20);
+                    }
                     @include breakpoint($lg){
                         padding: 1.5em 0em 1.5em 0em;
-                    }
+                        @include fontsize(18,20);
+                        font-weight: 300;
+                    }//list item
 
-                }
+                }//list
             }
         }
     }
