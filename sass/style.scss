@@ -4,6 +4,9 @@
 
 @import "breakpoint-sass/breakpoint";
 
+@import "../slick-1.8.1/slick/slick-theme.scss";
+@import "../slick-1.8.1/slick/slick.scss";
+
 @import "../res/font-aller.scss";
 @import "base/normalize"; 
 @import "base/variables";
@@ -27,6 +30,7 @@
 @import "module/social";
 @import "module/buttons";
 @import "module/infoshuffle";
+@import "module/carousel";
 
 @import "nav/hamburger-menu";
 @import "nav/desktop-nav";

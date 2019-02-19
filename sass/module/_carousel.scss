@@ -1,0 +1,29 @@
+.carousel{
+    position: relative;
+    padding: 0em 2em 0 2em;
+    .carousel-item{
+    
+        @include breakpoint($md){
+            display:  flex;
+            justify-content: center;
+            
+        }
+        .carousel-item-img{
+            height: auto; 
+            width: 100%;
+            align-content: center;
+            padding: 0em 2em 0 2em;
+         
+            img{
+                
+                width: 100%;
+            }
+        }//carousel-item-img
+
+        .carousel-item-text{
+            
+          
+        }//carousel-item-text  
+    }//carousel-item
+}//carousel
+
