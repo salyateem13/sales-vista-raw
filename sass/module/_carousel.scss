@@ -1,49 +1,78 @@
 .carousel{
     position: relative;
 
-    .carousel-item{
-        
+    .carousel-container{
+        width: 100%;
+        height: auto;
         @include breakpoint($sm){
-          //  padding: 0 2em;
+            margin: 0 15%  0 15%;
         }
         @include breakpoint($md){
-            display:  flex;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
+            max-width: 80%;
+    
         }
-        .carousel-item-img{
+        @include breakpoint($lg){
+            max-width: 75%;
 
-            align-self: center;
-           
-           // padding: 0em 2em 0em 2em;
-            @include breakpoint($md){
-           
+        }
+        @include breakpoint($xl){
+            max-width: 45%;
+        }
+
+        .carousel-item{
             
+            @include breakpoint($sm){
+            //  padding: 0 2em;
             }
-            @include breakpoint($lg){
-        
-
-            }
-         
-            img{
-                height: 458px;
-                width: auto;    
-            }
-        }//carousel-item-img
-
-        .carousel-item-text{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            padding: 0em 2em 0em 2em;
             @include breakpoint($md){
+                display:  flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
             }
-         
-      
+            .carousel-item-img{
+
+                align-self: center;
             
-          
-        }//carousel-item-text  
-    }//carousel-item
+            // padding: 0em 2em 0em 2em;
+                @include breakpoint($md){
+                
+                }
+                @include breakpoint($lg){
+
+                }
+            
+                img{
+                    margin: 0 auto 0 auto;
+                    max-width: 45%;   
+                    @include breakpoint($sm){
+                
+                    }
+                    @include breakpoint($md){
+                        max-width: 80%;
+                
+                    }
+                    @include breakpoint($lg){
+                        max-width: 75%;
+
+                    }
+                    @include breakpoint($xl){
+                        max-width: 45%;
+                    }
+
+                    
+                }
+            }//carousel-item-img
+
+            .carousel-item-text{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 0em 2em 0em 2em;
+                @include breakpoint($md){
+                }
+            }//carousel-item-text  
+        }//carousel-item
+    }//carousel-container
 }//carousel
 

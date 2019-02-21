@@ -1980,7 +1980,7 @@ a img.aligncenter {
 }
 
 */
-.headermb {
+.header {
   display: flex;
   justify-content: space-evenly;
   position: fixed;
@@ -1990,37 +1990,37 @@ a img.aligncenter {
   height: 100px;
   z-index: 1; }
   @media (min-width: 992px) {
-    .headermb {
+    .header {
       height: 100px; } }
   @media (min-width: 1200px) {
-    .headermb {
+    .header {
       justify-content: space-around;
       align-items: center; } }
-  .headermb .header-logo {
+  .header .header-logo {
     height: auto;
     width: 200px; }
     @media (min-width: 992px) {
-      .headermb .header-logo {
+      .header .header-logo {
         width: 300px; } }
     @media (min-width: 1200px) {
-      .headermb .header-logo {
+      .header .header-logo {
         width: 375px; } }
     @media (min-width: 1440px) {
-      .headermb .header-logo {
+      .header .header-logo {
         width: 425px; } }
-    .headermb .header-logo a img {
+    .header .header-logo a img {
       width: 100%;
       padding: 1.5em 0 0 0; }
       @media (min-width: 992px) {
-        .headermb .header-logo a img {
+        .header .header-logo a img {
           margin-left: 0; } }
       @media (min-width: 1200px) {
-        .headermb .header-logo a img {
+        .header .header-logo a img {
           padding: 0.5em 0 0 2.75em; } }
       @media (min-width: 1440px) {
-        .headermb .header-logo a img {
+        .header .header-logo a img {
           padding: 0.5em 0 0 3.5em; } }
-  .headermb .header-responsive {
+  .header .header-responsive {
     display: none;
     position: absolute;
     top: 0;
@@ -2030,7 +2030,7 @@ a img.aligncenter {
     z-index: -1;
     background-color: #1f2a37; }
     @media (min-width: 1200px) {
-      .headermb .header-responsive {
+      .header .header-responsive {
         top: 0;
         margin-top: 0;
         position: relative;
@@ -2039,7 +2039,7 @@ a img.aligncenter {
         padding: .5em 0 0 0;
         background-color: transparent; } }
     @media (min-width: 1440px) {
-      .headermb .header-responsive {
+      .header .header-responsive {
         top: 0;
         margin-top: 0;
         position: relative;
@@ -2048,79 +2048,79 @@ a img.aligncenter {
         padding: .5em 0 0 3.5em;
         background-color: transparent; } }
     @media (min-width: 1200px) {
-      .headermb .header-responsive nav {
+      .header .header-responsive nav {
         display: flex;
         justify-content: space-between;
         background-color: transparent;
         align-items: center; } }
-    .headermb .header-responsive nav ul {
+    .header .header-responsive nav ul {
       width: 100%;
       margin: 0;
       padding: 0; }
       @media (min-width: 1200px) {
-        .headermb .header-responsive nav ul {
+        .header .header-responsive nav ul {
           text-align: center; } }
-      .headermb .header-responsive nav ul.nav-mainlist {
+      .header .header-responsive nav ul.nav-mainlist {
         width: 100%; }
         @media (min-width: 1600px) {
-          .headermb .header-responsive nav ul.nav-mainlist {
+          .header .header-responsive nav ul.nav-mainlist {
             margin-left: 3em; } }
         @media (min-width: 2000px) {
-          .headermb .header-responsive nav ul.nav-mainlist {
+          .header .header-responsive nav ul.nav-mainlist {
             margin-left: 6em; } }
         @media (min-width: 2200px) {
-          .headermb .header-responsive nav ul.nav-mainlist {
+          .header .header-responsive nav ul.nav-mainlist {
             margin-left: 10em; } }
-        .headermb .header-responsive nav ul.nav-mainlist li:first-child {
+        .header .header-responsive nav ul.nav-mainlist li:first-child {
           padding: 0; }
         @media (min-width: 1200px) {
-          .headermb .header-responsive nav ul.nav-mainlist li {
+          .header .header-responsive nav ul.nav-mainlist li {
             padding: 0 0 0 1.5em; } }
-        .headermb .header-responsive nav ul.nav-mainlist li div {
+        .header .header-responsive nav ul.nav-mainlist li div {
           padding: .5em .5em .5em .5em; }
-      .headermb .header-responsive nav ul.nav-ctalist {
+      .header .header-responsive nav ul.nav-ctalist {
         width: 100%; }
         @media (min-width: 1200px) {
-          .headermb .header-responsive nav ul.nav-ctalist {
+          .header .header-responsive nav ul.nav-ctalist {
             width: 45%;
             display: flex;
             justify-content: flex-end;
             margin-right: 3em; } }
-        .headermb .header-responsive nav ul.nav-ctalist li:last-child {
+        .header .header-responsive nav ul.nav-ctalist li:last-child {
           background-color: #72be1e;
           border-bottom: none; }
           @media (min-width: 1200px) {
-            .headermb .header-responsive nav ul.nav-ctalist li:last-child {
+            .header .header-responsive nav ul.nav-ctalist li:last-child {
               background-color: transparent; } }
-      .headermb .header-responsive nav ul li {
+      .header .header-responsive nav ul li {
         border-top: 1px;
         border-style: solid;
         border-color: white;
         padding: .5em .5em .5em .5em; }
         @media (min-width: 1200px) {
-          .headermb .header-responsive nav ul li {
+          .header .header-responsive nav ul li {
             border-top: 0px;
             padding: 0 0 0 0;
             border-bottom: none;
             display: inline-block;
             position: relative; } }
-        .headermb .header-responsive nav ul li a {
+        .header .header-responsive nav ul li a {
           text-transform: uppercase;
           font-size: 16px;
           line-height: normal; }
           @media (min-width: 1200px) {
-            .headermb .header-responsive nav ul li a {
+            .header .header-responsive nav ul li a {
               text-transform: none; } }
-        .headermb .header-responsive nav ul li ul {
+        .header .header-responsive nav ul li ul {
           display: none;
           background: #4ea9fb; }
           @media (min-width: 1200px) {
-            .headermb .header-responsive nav ul li ul {
+            .header .header-responsive nav ul li ul {
               position: absolute;
               top: 100%;
               min-width: 170px;
               left: -80%; } }
-          .headermb .header-responsive nav ul li ul li {
+          .header .header-responsive nav ul li ul li {
             min-width: 170px;
             float: none;
             border-top: 1px;
@@ -2128,33 +2128,33 @@ a img.aligncenter {
             border-color: white;
             padding: .5em .5em .5em .5em !important; }
             @media (min-width: 1200px) {
-              .headermb .header-responsive nav ul li ul li {
+              .header .header-responsive nav ul li ul li {
                 width: 100%;
                 border-top: 0;
                 border-style: none;
                 border-color: transparent; } }
-            .headermb .header-responsive nav ul li ul li a {
+            .header .header-responsive nav ul li ul li a {
               display: block;
               margin-bottom: 0; }
         @media (min-width: 1200px) {
-          .headermb .header-responsive nav ul li:hover > ul {
+          .header .header-responsive nav ul li:hover > ul {
             background: #72be1e;
             border-color: transparent !important;
             display: inline-block; } }
-        .headermb .header-responsive nav ul li:active {
+        .header .header-responsive nav ul li:active {
           border-bottom: 1.5px;
           border-style: solid;
           border-color: white; }
-        .headermb .header-responsive nav ul li .submenu-item-open {
+        .header .header-responsive nav ul li .submenu-item-open {
           display: inline-block; }
-  .headermb .header-hamburger {
+  .header .header-hamburger {
     position: absolute;
     right: .5rem; }
     @media (min-width: 992px) {
-      .headermb .header-hamburger {
+      .header .header-hamburger {
         right: 1.5em; } }
     @media (min-width: 1200px) {
-      .headermb .header-hamburger {
+      .header .header-hamburger {
         display: none; } }
 
 .dark-background {
@@ -2227,7 +2227,7 @@ Body Container
       padding: 5em 15% 1em 15%; } }
   @media (min-width: 1440px) {
     .title {
-      padding: 5em 22% 1.25em 22%; } }
+      padding: 4em 22% 1.25em 22%; } }
 
 /*
 body{
