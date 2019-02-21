@@ -1,0 +1,23 @@
+{
+  "name": "salesvistaraw",
+  "version": "1.0.0",
+  "description": "SalesVista website Raw HTML CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salyateem13/sales-vista-raw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salyateem13/sales-vista-raw/issues"
+  },
+  "homepage": "https://github.com/salyateem13/sales-vista-raw#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
