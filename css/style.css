@@ -2612,6 +2612,13 @@ a img.aligncenter {
   padding: 3em 3em 3em 3em;
 }
 
+@media (min-width: 768px) {
+  /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_cta.scss */
+  .cta {
+    padding: 3em 15% 3em 15%;
+  }
+}
+
 @media (min-width: 1200px) {
   /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_cta.scss */
   .cta {
@@ -2759,8 +2766,8 @@ a img.aligncenter {
   /* line 3, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
   .infoshuffle .infoshuffle-row {
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2em 0 1em 0em;
+    justify-content: center;
+    padding: 2em 1em 1em 1em;
   }
 }
 
@@ -2771,14 +2778,21 @@ a img.aligncenter {
   }
 }
 
+@media (min-width: 1200px) {
+  /* line 3, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  .infoshuffle .infoshuffle-row {
+    padding: 0 15% 0 15%;
+  }
+}
+
 @media (min-width: 768px) {
-  /* line 18, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  /* line 21, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
   .infoshuffle .infoshuffle-row:nth-child(2n+1) {
     flex-direction: row-reverse;
   }
 }
 
-/* line 24, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+/* line 27, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
 .infoshuffle .infoshuffle-row .infoshuffle-row-img {
   padding: 0 20px;
   display: inline-block;
@@ -2786,37 +2800,65 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 24, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  /* line 27, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
   .infoshuffle .infoshuffle-row .infoshuffle-row-img {
     padding: 0 0 !important;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 24, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  /* line 27, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
   .infoshuffle .infoshuffle-row .infoshuffle-row-img {
     max-width: 777px;
   }
 }
 
-/* line 42, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+/* line 45, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
 .infoshuffle .infoshuffle-row .infoshuffle-row-img img {
   width: 100%;
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 48, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+/* line 51, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
 .infoshuffle .infoshuffle-row .infoshuffle-row-text {
   margin: 0 2em 0 2em;
 }
 
-/* line 50, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+@media (min-width: 768px) {
+  /* line 51, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+    padding-top: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 51, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+    padding-top: 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 51, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+    padding-top: 2em;
+  }
+}
+
+@media (min-width: 1440px) {
+  /* line 51, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+    padding-top: 1em;
+  }
+}
+
+/* line 66, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
 .infoshuffle .infoshuffle-row .infoshuffle-row-text ul {
   margin-bottom: 1em;
 }
 
-/* line 52, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+/* line 71, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
 .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
   border-bottom: 1px;
   border-style: solid;
@@ -2830,7 +2872,7 @@ a img.aligncenter {
 }
 
 @media (min-width: 992px) {
-  /* line 52, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  /* line 71, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
   .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
     font-size: 16px;
     line-height: 20px;
@@ -2840,7 +2882,7 @@ a img.aligncenter {
 }
 
 @media (min-width: 1200px) {
-  /* line 52, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
+  /* line 71, /Users/samiralyateem/Projects/SalesVistaRaw/sass/module/_infoshuffle.scss */
   .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
     padding: 1.5em 0em 1.5em 0em;
     font-size: 18px;
@@ -3507,21 +3549,21 @@ Body Container
 @media (min-width: 992px) {
   /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_title.scss */
   .title {
-    padding: 5em 5em 0em 5em;
+    padding: 5em 6em 1em 6em;
   }
 }
 
 @media (min-width: 1200px) {
   /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_title.scss */
   .title {
-    padding: 5em 7em 0em 7em;
+    padding: 5em 15% 1em 15%;
   }
 }
 
 @media (min-width: 1440px) {
   /* line 1, /Users/samiralyateem/Projects/SalesVistaRaw/sass/layout/_title.scss */
   .title {
-    padding: 5em 18% 0em 18%;
+    padding: 5em 22% 1.25em 22%;
   }
 }
 

@@ -7,6 +7,9 @@
     display: block;
     vertical-align: middle;
     padding: 3em 3em 3em 3em;
+    @include breakpoint($sm){
+      padding: 3em 15% 3em 15%;
+    }
     @include breakpoint($lg){
       min-height: 225px
     }
