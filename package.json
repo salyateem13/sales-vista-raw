@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/salyateem13/sales-vista-raw#readme",
   "dependencies": {
-    "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
   }
 }
