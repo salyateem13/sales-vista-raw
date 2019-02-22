@@ -12,6 +12,7 @@
 	appearance:         none;
 	cursor:pointer;
 	font-weight:200;
+	width: fit-content;
 	@include breakpoint($lg) {
 		padding:10px 20px;
 		margin:0 0;

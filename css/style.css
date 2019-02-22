@@ -1627,15 +1627,19 @@ a img.aligncenter {
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;
-  display: block;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
   padding: 3em 3em 3em 3em; }
   @media (min-width: 768px) {
     .cta {
       padding: 3em 15% 3em 15%; } }
   @media (min-width: 1200px) {
     .cta {
-      min-height: 225px; } }
+      min-height: 350px; } }
+  .cta a {
+    align-self: center; }
 
 /*******************
 	Buttons
@@ -1652,6 +1656,7 @@ a img.aligncenter {
   appearance: none;
   cursor: pointer;
   font-weight: 200;
+  width: fit-content;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -2157,7 +2162,7 @@ a img.aligncenter {
   background-position: center center;
   background-repeat: no-repeat;
   margin: -100px 0 0 0;
-  padding: 200px 0 0 0; }
+  padding: 150px 0 0 0; }
   @media (min-width: 992px) {
     .hero {
       margin-top: -100px;
@@ -2171,7 +2176,8 @@ a img.aligncenter {
       display: inline-block;
       width: 75%; }
     .hero .hero-board a {
-      margin-top: 2em; }
+      margin-top: 2em;
+      margin-bottom: 3em; }
   .hero .hero-img img {
     display: block;
     position: relative;

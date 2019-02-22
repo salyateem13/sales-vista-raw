@@ -4,7 +4,7 @@
   	background-position: center center;
     background-repeat: no-repeat;
     margin:-100px 0 0 0;
-    padding:200px 0 0 0;
+    padding:150px 0 0 0;
     @include breakpoint($md){
         margin-top: -100px;
         padding-top: 300px;
@@ -12,6 +12,7 @@
     .hero-board{
         text-align: center;
         display: block;
+        
         h1{
             padding: 0 10% 0 10%;
         }
@@ -21,13 +22,17 @@
         }
         a{
           margin-top: 2em;
+          margin-bottom: 3em;
         }
+        
     }
+   
     .hero-img{
         img{
             display: block;
             position: relative;
             width: 100%;
+            
         }//hero img
     }// hero-img div
 }//hero div

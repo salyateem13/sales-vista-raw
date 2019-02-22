@@ -4,14 +4,20 @@
   	background-position: center center;
     background-repeat: no-repeat;
     text-align: center;
-    display: block;
-    vertical-align: middle;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
     padding: 3em 3em 3em 3em;
     @include breakpoint($sm){
       padding: 3em 15% 3em 15%;
     }
     @include breakpoint($lg){
-      min-height: 225px
+      min-height: 350px;
+    }
+
+    a{
+      align-self: center;
     }
     
 } 
