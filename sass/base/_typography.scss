@@ -40,7 +40,7 @@ h2,
 h3,
 .h3 {
 	color: black;
-	@include fontsize(24,34);
+	@include fontsize(26,34);
 	@include breakpoint($sm) {
 		@include fontsize(28,38);
 	}//breakpoint($sm)
@@ -48,7 +48,7 @@ h3,
 
 .h3-white{
 	color: white;
-	@include fontsize(24,34);
+	@include fontsize(26,34);
 	@include breakpoint($sm) {
 		@include fontsize(28,38);
 	}//breakpoint($sm)
@@ -60,21 +60,21 @@ h3,
 h4,
 .h4 {
 	color: white;
-	@include fontsize(20,30);
+	@include fontsize(22,32);
 	@include breakpoint($sm) {
-		@include fontsize(24,34);
+		@include fontsize(26,34);
 	}//breakpoint($sm)
 }//h4
 
 h5,
 .h5 {
 	color: black;
-	@include fontsize(20,30);
+	@include fontsize(18,28);
 }//h5
 
 h6,
 .h6 {
-	@include fontsize(18, 28);
+	@include fontsize(20, 28);
 }//h6
 
 p,

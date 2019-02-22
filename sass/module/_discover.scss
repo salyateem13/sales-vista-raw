@@ -1,0 +1,27 @@
+.discover{
+    .discover-title{
+        text-align: center;
+        
+        h2{
+            @include fontsize(36,46);
+        }
+    }
+    .discover-body{
+        @include breakpoint ($sm){
+            display: flex;
+        }
+        ul{
+            li{
+            list-style: disc;
+            padding: .5em;
+            }
+        }
+    }
+    .discover-bodyleft{
+        padding: 0 2.5em;
+
+    }
+    .discover-bodyright{
+        padding: 0 2.5em;
+    }
+}

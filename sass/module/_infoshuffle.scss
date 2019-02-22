@@ -1,5 +1,5 @@
 .infoshuffle{
-
+    
 
     .infoshuffle-row{
         display: flex;
@@ -16,7 +16,7 @@
         @include breakpoint($lg){
             padding: 0 15% 0 15%;
         }
-        @include breakpoint($lg){
+        @include breakpoint($xl){
             
         }
         &:nth-child(2n+1){
@@ -31,7 +31,6 @@
         .infoshuffle-row-img{
             width: 100%;
             height: auto;
-            
             display: inline-block;
             
             @include breakpoint($sm){
@@ -49,6 +48,7 @@
             img{
                 width: 100%;
                 display: inline-block;
+                border-radius: 6px;
                 @include breakpoint($sm){
 
                 }
@@ -113,6 +113,182 @@
 
             a{
                 width: fit-content;
+            }
+        }
+    }
+}
+
+.team-infoshuffle{
+    @extend .infoshuffle;
+    //margin: 3em 0;
+    .infoshuffle-row{
+        @include breakpoint($sm){
+            flex-direction: row;
+            justify-content: center;
+            padding: 2em 1em 1em 1em;
+        }
+        @include breakpoint($md){
+            padding: 2.5em 6em 0em 6em;
+        }
+        @include breakpoint($lg){
+            padding: 2.5em 15% 0 15%;
+        }
+        @include breakpoint($lg){
+            
+        }
+        .infoshuffle-row-text{
+           
+            margin-bottom: 2em;
+            @include breakpoint($sm){
+                width: 50%;
+
+            }
+            @include breakpoint($md){
+                
+            }
+            @include breakpoint($lg){
+         
+            }
+            @include breakpoint($xl){
+                
+            }
+            h3{
+
+            }
+            h5{
+                margin-bottom: 0px !important;
+            }
+            p{
+
+            }
+        }
+        .infoshuffle-row-img{
+            
+            height: auto;
+            
+            display: inline-block;
+            padding: 2em;
+            padding-bottom: 1em;
+            
+            @include breakpoint($sm){
+                width: 50%;
+                padding: 0;
+
+            }
+            @include breakpoint($md){
+               
+            }
+            @include breakpoint($lg){
+                
+            }
+            @include breakpoint($xl){
+                
+            }
+            img{
+                width: 100%;
+                display: inline-block;
+                border-radius: 6px;
+                @include breakpoint($sm){
+
+                }
+                @include breakpoint($md){
+                
+                }
+                @include breakpoint($lg){
+      
+                }
+                @include breakpoint($xl){
+                    //max-width: 80%;
+                }
+           
+            }
+        }
+    }
+}
+
+
+
+
+.product-infoshuffle{
+    @extend .infoshuffle;
+    .infoshuffle-row{
+        @include breakpoint($sm){
+            flex-direction: row;
+            justify-content: center;
+            padding: 2em 1em 1em 1em;
+        }
+        @include breakpoint($md){
+            padding: 2.5em 6em 0em 6em;
+        }
+        @include breakpoint($lg){
+            padding: 2.5em 15% 0 15%;
+        }
+        @include breakpoint($lg){
+            
+        }
+        .infoshuffle-row-text{
+           
+            margin-bottom: 2em;
+            @include breakpoint($sm){
+                
+
+            }
+            @include breakpoint($md){
+                
+            }
+            @include breakpoint($lg){
+         
+            }
+            @include breakpoint($xl){
+                
+            }
+            h3{
+               
+            }
+            h5{
+              text-align: left;
+            }
+            p{
+
+            }
+        }
+        .infoshuffle-row-img{
+            
+            height: auto;
+            
+            display: inline-block;
+            padding: 2em;
+            padding-bottom: 1em;
+            
+            @include breakpoint($sm){
+                padding: 0;
+
+            }
+            @include breakpoint($md){
+               
+            }
+            @include breakpoint($lg){
+                
+            }
+            @include breakpoint($xl){
+                
+            }
+            img{
+                width: 100%;
+                display: inline-block;
+                border-radius: 6px;
+                @include breakpoint($sm){
+
+                }
+                @include breakpoint($md){
+                
+                }
+                @include breakpoint($lg){
+      
+                }
+                @include breakpoint($xl){
+                    //max-width: 80%;
+                }
             }
         }
     }

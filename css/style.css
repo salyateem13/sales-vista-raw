@@ -495,9 +495,9 @@ h2,
 h3,
 .h3 {
   color: black;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 34px;
-  font-size: 1.5rem;
+  font-size: 1.625rem;
   line-height: 2.125rem; }
   @media (min-width: 768px) {
     h3,
@@ -509,9 +509,9 @@ h3,
 
 .h3-white {
   color: white;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 34px;
-  font-size: 1.5rem;
+  font-size: 1.625rem;
   line-height: 2.125rem; }
   @media (min-width: 768px) {
     .h3-white {
@@ -526,31 +526,31 @@ h3,
 h4,
 .h4 {
   color: white;
-  font-size: 20px;
-  line-height: 30px;
-  font-size: 1.25rem;
-  line-height: 1.875rem; }
+  font-size: 22px;
+  line-height: 32px;
+  font-size: 1.375rem;
+  line-height: 2rem; }
   @media (min-width: 768px) {
     h4,
     .h4 {
-      font-size: 24px;
+      font-size: 26px;
       line-height: 34px;
-      font-size: 1.5rem;
+      font-size: 1.625rem;
       line-height: 2.125rem; } }
 
 h5,
 .h5 {
   color: black;
-  font-size: 20px;
-  line-height: 30px;
-  font-size: 1.25rem;
-  line-height: 1.875rem; }
-
-h6,
-.h6 {
   font-size: 18px;
   line-height: 28px;
   font-size: 1.125rem;
+  line-height: 1.75rem; }
+
+h6,
+.h6 {
+  font-size: 20px;
+  line-height: 28px;
+  font-size: 1.25rem;
   line-height: 1.75rem; }
 
 p,
@@ -1734,56 +1734,57 @@ a img.aligncenter {
 .open-submenu-activated {
   transform: rotateZ(-135deg); }
 
-.infoshuffle .infoshuffle-row {
+.infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row {
   display: flex;
   justify-content: center;
   flex-direction: column; }
   @media (min-width: 768px) {
-    .infoshuffle .infoshuffle-row {
+    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row {
       flex-direction: row;
       justify-content: center;
       padding: 2em 1em 1em 1em; } }
   @media (min-width: 992px) {
-    .infoshuffle .infoshuffle-row {
+    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row {
       padding: 2.5em 6em 0em 6em; } }
   @media (min-width: 1200px) {
-    .infoshuffle .infoshuffle-row {
+    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row {
       padding: 0 15% 0 15%; } }
   @media (min-width: 768px) {
-    .infoshuffle .infoshuffle-row:nth-child(2n+1) {
+    .infoshuffle .infoshuffle-row:nth-child(2n+1), .team-infoshuffle .infoshuffle-row:nth-child(2n+1), .product-infoshuffle .infoshuffle-row:nth-child(2n+1) {
       flex-direction: row-reverse; } }
-  .infoshuffle .infoshuffle-row.gray-background {
+  .infoshuffle .infoshuffle-row.gray-background, .team-infoshuffle .infoshuffle-row.gray-background, .product-infoshuffle .infoshuffle-row.gray-background {
     background-color: #f5f5f5; }
-  .infoshuffle .infoshuffle-row .infoshuffle-row-img {
+  .infoshuffle .infoshuffle-row .infoshuffle-row-img, .team-infoshuffle .infoshuffle-row .infoshuffle-row-img, .product-infoshuffle .infoshuffle-row .infoshuffle-row-img {
     width: 100%;
     height: auto;
     display: inline-block; }
-    .infoshuffle .infoshuffle-row .infoshuffle-row-img img {
+    .infoshuffle .infoshuffle-row .infoshuffle-row-img img, .team-infoshuffle .infoshuffle-row .infoshuffle-row-img img, .product-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
       width: 100%;
-      display: inline-block; }
-  .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      display: inline-block;
+      border-radius: 6px; }
+  .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
     margin: 0 2em 0 2em;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column; }
-    .infoshuffle .infoshuffle-row .infoshuffle-row-text * {
+    .infoshuffle .infoshuffle-row .infoshuffle-row-text *, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text *, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text * {
       text-align: left; }
     @media (min-width: 768px) {
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
         padding: 1em 0; } }
     @media (min-width: 992px) {
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
         padding: 2em 0; } }
     @media (min-width: 1200px) {
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
         padding: 2em 0; } }
     @media (min-width: 1440px) {
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
         padding: 1em 0; } }
-    .infoshuffle .infoshuffle-row .infoshuffle-row-text ul {
+    .infoshuffle .infoshuffle-row .infoshuffle-row-text ul, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul {
       margin-bottom: 1em; }
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
         border-bottom: 1px;
         border-style: solid;
         border-color: #d8d8d8;
@@ -1794,21 +1795,81 @@ a img.aligncenter {
         line-height: 1.125rem;
         font-weight: 400; }
         @media (min-width: 992px) {
-          .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
+          .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
             font-size: 16px;
             line-height: 20px;
             font-size: 1rem;
             line-height: 1.25rem; } }
         @media (min-width: 1200px) {
-          .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
+          .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
             padding: 1.5em 0em 1.5em 0em;
             font-size: 18px;
             line-height: 20px;
             font-size: 1.125rem;
             line-height: 1.25rem;
             font-weight: 300; } }
-    .infoshuffle .infoshuffle-row .infoshuffle-row-text a {
+    .infoshuffle .infoshuffle-row .infoshuffle-row-text a, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text a, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text a {
       width: fit-content; }
+
+@media (min-width: 768px) {
+  .team-infoshuffle .infoshuffle-row {
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em 1em 1em 1em; } }
+@media (min-width: 992px) {
+  .team-infoshuffle .infoshuffle-row {
+    padding: 2.5em 6em 0em 6em; } }
+@media (min-width: 1200px) {
+  .team-infoshuffle .infoshuffle-row {
+    padding: 2.5em 15% 0 15%; } }
+.team-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+  margin-bottom: 2em; }
+  @media (min-width: 768px) {
+    .team-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      width: 50%; } }
+  .team-infoshuffle .infoshuffle-row .infoshuffle-row-text h5 {
+    margin-bottom: 0px !important; }
+.team-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+  height: auto;
+  display: inline-block;
+  padding: 2em;
+  padding-bottom: 1em; }
+  @media (min-width: 768px) {
+    .team-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+      width: 50%;
+      padding: 0; } }
+  .team-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
+    width: 100%;
+    display: inline-block;
+    border-radius: 6px; }
+
+@media (min-width: 768px) {
+  .product-infoshuffle .infoshuffle-row {
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em 1em 1em 1em; } }
+@media (min-width: 992px) {
+  .product-infoshuffle .infoshuffle-row {
+    padding: 2.5em 6em 0em 6em; } }
+@media (min-width: 1200px) {
+  .product-infoshuffle .infoshuffle-row {
+    padding: 2.5em 15% 0 15%; } }
+.product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+  margin-bottom: 2em; }
+  .product-infoshuffle .infoshuffle-row .infoshuffle-row-text h5 {
+    text-align: left; }
+.product-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+  height: auto;
+  display: inline-block;
+  padding: 2em;
+  padding-bottom: 1em; }
+  @media (min-width: 768px) {
+    .product-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+      padding: 0; } }
+  .product-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
+    width: 100%;
+    display: inline-block;
+    border-radius: 6px; }
 
 .carousel {
   position: relative; }
@@ -1825,6 +1886,24 @@ a img.aligncenter {
       margin: 0 auto; }
     .carousel .carousel-item .carousel-container .carousel-item-text {
       padding: 0em 2em 0em 2em; }
+
+.discover .discover-title {
+  text-align: center; }
+  .discover .discover-title h2 {
+    font-size: 36px;
+    line-height: 46px;
+    font-size: 2.25rem;
+    line-height: 2.875rem; }
+@media (min-width: 768px) {
+  .discover .discover-body {
+    display: flex; } }
+.discover .discover-body ul li {
+  list-style: disc;
+  padding: .5em; }
+.discover .discover-bodyleft {
+  padding: 0 2.5em; }
+.discover .discover-bodyright {
+  padding: 0 2.5em; }
 
 /*!
  * Hamburgers
@@ -2162,7 +2241,7 @@ a img.aligncenter {
   background-position: center center;
   background-repeat: no-repeat;
   margin: -100px 0 0 0;
-  padding: 150px 0 0 0; }
+  padding: 180px 0 0 0; }
   @media (min-width: 992px) {
     .hero {
       margin-top: -100px;
