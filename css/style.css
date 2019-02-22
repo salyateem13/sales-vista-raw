@@ -1887,23 +1887,81 @@ a img.aligncenter {
     .carousel .carousel-item .carousel-container .carousel-item-text {
       padding: 0em 2em 0em 2em; }
 
-.discover .discover-title {
-  text-align: center; }
-  .discover .discover-title h2 {
-    font-size: 36px;
-    line-height: 46px;
-    font-size: 2.25rem;
-    line-height: 2.875rem; }
-@media (min-width: 768px) {
-  .discover .discover-body {
-    display: flex; } }
-.discover .discover-body ul li {
-  list-style: disc;
-  padding: .5em; }
-.discover .discover-bodyleft {
-  padding: 0 2.5em; }
-.discover .discover-bodyright {
-  padding: 0 2.5em; }
+.discover {
+  padding: 2em 2em 5em 2em; }
+  .discover .discover-title {
+    text-align: center;
+    margin-bottom: 4em; }
+    .discover .discover-title h2 {
+      font-size: 36px;
+      line-height: 46px;
+      font-size: 2.25rem;
+      line-height: 2.875rem; }
+  @media (min-width: 768px) {
+    .discover .discover-body {
+      display: flex;
+      justify-content: center; } }
+  .discover .discover-body ul li {
+    list-style: disc;
+    padding: .5em;
+    font-size: 14px;
+    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem; }
+  .discover .discover-bodyleft {
+    padding: 0 2.5em; }
+  .discover .discover-bodyright {
+    padding: 0 2.5em; }
+
+.security {
+  background: url("../res/banner-sign-up@2x.png");
+  background-size: cover;
+  /* or contain depending on what you want */
+  background-position: top bottom;
+  background-repeat: no-repeat;
+  padding: 2em; }
+  .security .security-title {
+    text-align: center; }
+  @media (min-width: 768px) {
+    .security .security-body {
+      display: flex;
+      justify-content: center; } }
+  .security .security-body .security-body-img {
+    width: 100%;
+    height: auto; }
+    .security .security-body .security-body-img img {
+      width: 100%; }
+      @media (min-width: 1200px) {
+        .security .security-body .security-body-img img {
+          max-width: 50%;
+          margin: 0 auto; } }
+  .security .security-body .security-body-list {
+    margin: 2em; }
+    .security .security-body .security-body-list ul li {
+      color: white;
+      border-bottom: 1px;
+      border-style: solid;
+      border-color: #d8d8d8;
+      padding: 1em 0em 1em 0em;
+      font-size: 14px;
+      line-height: 18px;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+      font-weight: 400; }
+      @media (min-width: 992px) {
+        .security .security-body .security-body-list ul li {
+          font-size: 16px;
+          line-height: 20px;
+          font-size: 1rem;
+          line-height: 1.25rem; } }
+      @media (min-width: 1200px) {
+        .security .security-body .security-body-list ul li {
+          padding: 1.5em 0em 1.5em 0em;
+          font-size: 18px;
+          line-height: 20px;
+          font-size: 1.125rem;
+          line-height: 1.25rem;
+          font-weight: 300; } }
 
 /*!
  * Hamburgers
