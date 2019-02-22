@@ -4,6 +4,9 @@
   	background-position: top bottom;
     background-repeat: no-repeat;
     padding: 2em;
+    @include breakpoint ($sm){
+       margin-bottom: -5em;
+    }
     .security-title{
         text-align: center;
         h2{
@@ -20,10 +23,14 @@
             height: auto;
             img{
                 width: 100%;
-                @include breakpoint ($lg){
-                    max-width: 50%;
+                @include breakpoint ($sm){
+                    //  max-width: 50%;
+                      margin: 0 auto;
+                  }
+                @include breakpoint ($md){
+                    max-width: 90%;
                     margin: 0 auto;
-                }
+                }  
             }
 
         }

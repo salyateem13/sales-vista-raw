@@ -1920,6 +1920,9 @@ a img.aligncenter {
   background-position: top bottom;
   background-repeat: no-repeat;
   padding: 2em; }
+  @media (min-width: 768px) {
+    .security {
+      margin-bottom: -5em; } }
   .security .security-title {
     text-align: center; }
   @media (min-width: 768px) {
@@ -1931,9 +1934,12 @@ a img.aligncenter {
     height: auto; }
     .security .security-body .security-body-img img {
       width: 100%; }
-      @media (min-width: 1200px) {
+      @media (min-width: 768px) {
         .security .security-body .security-body-img img {
-          max-width: 50%;
+          margin: 0 auto; } }
+      @media (min-width: 992px) {
+        .security .security-body .security-body-img img {
+          max-width: 90%;
           margin: 0 auto; } }
   .security .security-body .security-body-list {
     margin: 2em; }
