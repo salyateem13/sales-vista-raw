@@ -1,0 +1,47 @@
+
+.technology{
+    margin-top: -5em auto 2em auto;
+    padding: 2em 2em 6em 2em;
+
+    .technology-title{
+        text-align: center;
+    }
+
+    .technology-imgcontainer{
+      
+        @include breakpoint ($sm){
+            
+        }
+        .technology-imgcontainer1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
+            .technology-imgcontainer1-img{
+                width: calc(100% / 2);
+                min-width: calc(100% / 2);
+                display: block;
+
+                @include breakpoint($sm) {
+                    width: 33.33333333%;
+                    min-width: 33.33333333%;
+                }
+                @include breakpoint($md) {
+                    width: 20%;
+                    min-width: 20%;
+                }
+                @include breakpoint($lg) {
+                    width: 10%;
+                    min-width: 10%;
+                }
+                img{
+                    max-width: 80%;
+                    display:block;
+                    margin:auto;
+                    padding: .5em;
+                }
+            }
+        }
+    }
+}

@@ -1,14 +1,8 @@
 .security{
-    background: url("../res/banner-sign-up@2x.png");
-    background-size: cover; /* or contain depending on what you want */
-  	background-position: top bottom;
-    background-repeat: no-repeat;
-    padding: 2em;
-    @include breakpoint ($sm){
-       margin-bottom: -5em;
-    }
+ 
+
     .security-title{
-        text-align: center;
+        
         h2{
 
         }
@@ -19,23 +13,50 @@
             justify-content: center;
         }
         .security-body-img{
-            width: 100%;
-            height: auto;
+            
+            @include breakpoint($sm){
+            }
+        
             img{
-                width: 100%;
+                
+            
                 @include breakpoint ($sm){
                     //  max-width: 50%;
                       margin: 0 auto;
+                      margin-bottom: -27%;
+                   
                   }
                 @include breakpoint ($md){
                     max-width: 90%;
-                    margin: 0 auto;
+                    //margin: 0 auto;
                 }  
             }
 
         }
 
         .security-body-list{
+    
+        }
+    }
+}
+
+
+.security{
+    .security-text{
+        background: url("../res/banner-sign-up@2x.png");
+        background-size: unset; /* or contain depending on what you want */
+        background-position: top bottom;
+        background-repeat: no-repeat;
+        padding: 2em;
+        text-align: center;
+        
+        @include breakpoint ($sm){
+       
+        }
+        .security-text-title{
+
+        }
+        .security-text-list{
             margin: 2em;
             ul{
                 
@@ -58,6 +79,87 @@
                     }
                 }//list item
             }
+        }
+    }
+    .security-img{
+        width: 100%;
+        height: auto;
+        img{
+            width: 100%;
+            position: relative;
+        }
+    }
+}
+
+.security-new{
+    background: url("../res/banner-sign-up@2x.png");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: top bottom;
+    background-repeat: no-repeat;
+    padding: 2em;
+    text-align: center;
+    margin-bottom:180px;
+
+        .col-title {
+
+        }
+
+        .col-img {
+           // margin-bottom:-180px;
+            @include breakpoint ($md){
+                margin-bottom:-180px;
+            }
+            img {
+                max-width: 100%;
+                height:auto;
+                display:block;
+            }
+
+            @include breakpoint ($xl){
+                padding: 0 5em;
+            }
+        }
+
+        .col-body{
+
+             text-align: left;
+            h6{
+                margin-left: 2em;
+                margin-right: 6em;
+            }
+
+            ul{
+                margin-left: 2em;
+                margin-right: 7em;
+               
+                
+                li{
+                    color: white;
+                    border-bottom: 1px;
+                    border-style: solid;
+                    border-color: $light-gray;
+                    padding: 1em 0em 1em 0em;
+                    @include fontsize(14,18);
+                    font-weight: 400;
+                    @include breakpoint($md){
+                      
+                        @include fontsize(16,20);
+                    }
+                    @include breakpoint($lg){
+                        padding: 1.5em 0em 1.5em 0em;
+                        @include fontsize(18,20);
+                        font-weight: 300;
+                    }
+                }//list item
+            }
+        }
+
+    .security-img{
+        width: 100%;
+        height: auto;
+        img{
+            width: 100%;
+            position: relative;
         }
     }
 }

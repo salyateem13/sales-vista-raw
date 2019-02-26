@@ -1634,7 +1634,7 @@ a img.aligncenter {
   padding: 3em 3em 3em 3em; }
   @media (min-width: 768px) {
     .cta {
-      padding: 3em 15% 3em 15%; } }
+      padding: 3em 20% 3em 20%; } }
   @media (min-width: 1200px) {
     .cta {
       min-height: 350px; } }
@@ -1734,57 +1734,57 @@ a img.aligncenter {
 .open-submenu-activated {
   transform: rotateZ(-135deg); }
 
-.infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row {
+.infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row, .help-infoshuffle .infoshuffle-row {
   display: flex;
   justify-content: center;
   flex-direction: column; }
   @media (min-width: 768px) {
-    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row {
+    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row, .help-infoshuffle .infoshuffle-row {
       flex-direction: row;
       justify-content: center;
       padding: 2em 1em 1em 1em; } }
   @media (min-width: 992px) {
-    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row {
+    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row, .help-infoshuffle .infoshuffle-row {
       padding: 2.5em 6em 0em 6em; } }
   @media (min-width: 1200px) {
-    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row {
+    .infoshuffle .infoshuffle-row, .team-infoshuffle .infoshuffle-row, .product-infoshuffle .infoshuffle-row, .help-infoshuffle .infoshuffle-row {
       padding: 0 15% 0 15%; } }
   @media (min-width: 768px) {
-    .infoshuffle .infoshuffle-row:nth-child(2n+1), .team-infoshuffle .infoshuffle-row:nth-child(2n+1), .product-infoshuffle .infoshuffle-row:nth-child(2n+1) {
+    .infoshuffle .infoshuffle-row:nth-child(2n+1), .team-infoshuffle .infoshuffle-row:nth-child(2n+1), .product-infoshuffle .infoshuffle-row:nth-child(2n+1), .help-infoshuffle .infoshuffle-row:nth-child(2n+1) {
       flex-direction: row-reverse; } }
-  .infoshuffle .infoshuffle-row.gray-background, .team-infoshuffle .infoshuffle-row.gray-background, .product-infoshuffle .infoshuffle-row.gray-background {
+  .infoshuffle .infoshuffle-row.gray-background, .team-infoshuffle .infoshuffle-row.gray-background, .product-infoshuffle .infoshuffle-row.gray-background, .help-infoshuffle .infoshuffle-row.gray-background {
     background-color: #f5f5f5; }
-  .infoshuffle .infoshuffle-row .infoshuffle-row-img, .team-infoshuffle .infoshuffle-row .infoshuffle-row-img, .product-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+  .infoshuffle .infoshuffle-row .infoshuffle-row-img, .team-infoshuffle .infoshuffle-row .infoshuffle-row-img, .product-infoshuffle .infoshuffle-row .infoshuffle-row-img, .help-infoshuffle .infoshuffle-row .infoshuffle-row-img {
     width: 100%;
     height: auto;
     display: inline-block; }
-    .infoshuffle .infoshuffle-row .infoshuffle-row-img img, .team-infoshuffle .infoshuffle-row .infoshuffle-row-img img, .product-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
+    .infoshuffle .infoshuffle-row .infoshuffle-row-img img, .team-infoshuffle .infoshuffle-row .infoshuffle-row-img img, .product-infoshuffle .infoshuffle-row .infoshuffle-row-img img, .help-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
       width: 100%;
       display: inline-block;
       border-radius: 6px; }
-  .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+  .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text {
     margin: 0 2em 0 2em;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column; }
-    .infoshuffle .infoshuffle-row .infoshuffle-row-text *, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text *, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text * {
+    .infoshuffle .infoshuffle-row .infoshuffle-row-text *, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text *, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text *, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text * {
       text-align: left; }
     @media (min-width: 768px) {
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text {
         padding: 1em 0; } }
     @media (min-width: 992px) {
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text {
         padding: 2em 0; } }
     @media (min-width: 1200px) {
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text {
         padding: 2em 0; } }
     @media (min-width: 1440px) {
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text {
         padding: 1em 0; } }
-    .infoshuffle .infoshuffle-row .infoshuffle-row-text ul, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul {
+    .infoshuffle .infoshuffle-row .infoshuffle-row-text ul, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text ul {
       margin-bottom: 1em; }
-      .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
+      .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
         border-bottom: 1px;
         border-style: solid;
         border-color: #d8d8d8;
@@ -1795,81 +1795,113 @@ a img.aligncenter {
         line-height: 1.125rem;
         font-weight: 400; }
         @media (min-width: 992px) {
-          .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
+          .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
             font-size: 16px;
             line-height: 20px;
             font-size: 1rem;
             line-height: 1.25rem; } }
         @media (min-width: 1200px) {
-          .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
+          .infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text ul li {
             padding: 1.5em 0em 1.5em 0em;
             font-size: 18px;
             line-height: 20px;
             font-size: 1.125rem;
             line-height: 1.25rem;
             font-weight: 300; } }
-    .infoshuffle .infoshuffle-row .infoshuffle-row-text a, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text a, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text a {
+    .infoshuffle .infoshuffle-row .infoshuffle-row-text a, .team-infoshuffle .infoshuffle-row .infoshuffle-row-text a, .product-infoshuffle .infoshuffle-row .infoshuffle-row-text a, .help-infoshuffle .infoshuffle-row .infoshuffle-row-text a {
       width: fit-content; }
 
-@media (min-width: 768px) {
-  .team-infoshuffle .infoshuffle-row {
-    flex-direction: row;
-    justify-content: center;
-    padding: 2em 1em 1em 1em; } }
-@media (min-width: 992px) {
-  .team-infoshuffle .infoshuffle-row {
-    padding: 2.5em 6em 0em 6em; } }
-@media (min-width: 1200px) {
-  .team-infoshuffle .infoshuffle-row {
-    padding: 2.5em 15% 0 15%; } }
-.team-infoshuffle .infoshuffle-row .infoshuffle-row-text {
-  margin-bottom: 2em; }
-  @media (min-width: 768px) {
-    .team-infoshuffle .infoshuffle-row .infoshuffle-row-text {
-      width: 50%; } }
-  .team-infoshuffle .infoshuffle-row .infoshuffle-row-text h5 {
-    margin-bottom: 0px !important; }
-.team-infoshuffle .infoshuffle-row .infoshuffle-row-img {
-  height: auto;
-  display: inline-block;
-  padding: 2em;
+.team-infoshuffle {
   padding-bottom: 1em; }
   @media (min-width: 768px) {
-    .team-infoshuffle .infoshuffle-row .infoshuffle-row-img {
-      width: 50%;
-      padding: 0; } }
-  .team-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
-    width: 100%;
+    .team-infoshuffle .infoshuffle-row {
+      flex-direction: row;
+      justify-content: center;
+      padding: 2em 1em 2em 1em; } }
+  @media (min-width: 992px) {
+    .team-infoshuffle .infoshuffle-row {
+      padding: 2.5em 6em 2.5em 6em; } }
+  @media (min-width: 1200px) {
+    .team-infoshuffle .infoshuffle-row {
+      padding: 2.5em 15% 2.5em 15%; } }
+  .team-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+    margin-bottom: 2em; }
+    @media (min-width: 768px) {
+      .team-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+        width: 50%; } }
+    .team-infoshuffle .infoshuffle-row .infoshuffle-row-text h5 {
+      margin-bottom: 0px !important; }
+  .team-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+    height: auto;
     display: inline-block;
-    border-radius: 6px; }
+    padding: 2em;
+    padding-bottom: 1em; }
+    @media (min-width: 768px) {
+      .team-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+        width: 50%;
+        padding: 0; } }
+    .team-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
+      width: 100%;
+      display: inline-block;
+      border-radius: 6px; }
+
+.product-infoshuffle {
+  padding-bottom: 3em; }
+  @media (min-width: 768px) {
+    .product-infoshuffle .infoshuffle-row {
+      flex-direction: row;
+      justify-content: center;
+      padding: 2em 1em 1em 1em; } }
+  @media (min-width: 992px) {
+    .product-infoshuffle .infoshuffle-row {
+      padding: 2.5em 6em 0em 6em; } }
+  @media (min-width: 1200px) {
+    .product-infoshuffle .infoshuffle-row {
+      padding: 2.5em 15% 0 15%; } }
+  .product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+    margin-bottom: 2em;
+    padding: 1em; }
+    .product-infoshuffle .infoshuffle-row .infoshuffle-row-text h5 {
+      text-align: left; }
+  .product-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+    height: auto;
+    display: inline-block;
+    padding: 2em;
+    padding-bottom: 1em; }
+    @media (min-width: 768px) {
+      .product-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+        padding: 0; } }
+    .product-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
+      width: 100%;
+      display: inline-block;
+      border-radius: 6px; }
 
 @media (min-width: 768px) {
-  .product-infoshuffle .infoshuffle-row {
+  .help-infoshuffle .infoshuffle-row {
     flex-direction: row;
     justify-content: center;
     padding: 2em 1em 1em 1em; } }
 @media (min-width: 992px) {
-  .product-infoshuffle .infoshuffle-row {
+  .help-infoshuffle .infoshuffle-row {
     padding: 2.5em 6em 0em 6em; } }
 @media (min-width: 1200px) {
-  .product-infoshuffle .infoshuffle-row {
+  .help-infoshuffle .infoshuffle-row {
     padding: 2.5em 15% 0 15%; } }
-.product-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+.help-infoshuffle .infoshuffle-row .infoshuffle-row-text {
   margin-bottom: 2em; }
-  .product-infoshuffle .infoshuffle-row .infoshuffle-row-text h5 {
+  @media (min-width: 768px) {
+    .help-infoshuffle .infoshuffle-row .infoshuffle-row-text {
+      width: 50%; } }
+  .help-infoshuffle .infoshuffle-row .infoshuffle-row-text h5 {
     text-align: left; }
-.product-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+.help-infoshuffle .infoshuffle-row .infoshuffle-row-img {
   height: auto;
-  display: inline-block;
   padding: 2em;
   padding-bottom: 1em; }
   @media (min-width: 768px) {
-    .product-infoshuffle .infoshuffle-row .infoshuffle-row-img {
-      padding: 0; } }
-  .product-infoshuffle .infoshuffle-row .infoshuffle-row-img img {
-    width: 100%;
-    display: inline-block;
-    border-radius: 6px; }
+    .help-infoshuffle .infoshuffle-row .infoshuffle-row-img {
+      padding: 0;
+      width: 50%; } }
 
 .carousel {
   position: relative; }
@@ -1913,37 +1945,29 @@ a img.aligncenter {
   .discover .discover-bodyright {
     padding: 0 2.5em; }
 
-.security {
+@media (min-width: 768px) {
+  .security .security-body {
+    display: flex;
+    justify-content: center; } }
+@media (min-width: 768px) {
+  .security .security-body .security-body-img img {
+    margin: 0 auto;
+    margin-bottom: -27%; } }
+@media (min-width: 992px) {
+  .security .security-body .security-body-img img {
+    max-width: 90%; } }
+
+.security .security-text {
   background: url("../res/banner-sign-up@2x.png");
-  background-size: cover;
+  background-size: unset;
   /* or contain depending on what you want */
   background-position: top bottom;
   background-repeat: no-repeat;
-  padding: 2em; }
-  @media (min-width: 768px) {
-    .security {
-      margin-bottom: -5em; } }
-  .security .security-title {
-    text-align: center; }
-  @media (min-width: 768px) {
-    .security .security-body {
-      display: flex;
-      justify-content: center; } }
-  .security .security-body .security-body-img {
-    width: 100%;
-    height: auto; }
-    .security .security-body .security-body-img img {
-      width: 100%; }
-      @media (min-width: 768px) {
-        .security .security-body .security-body-img img {
-          margin: 0 auto; } }
-      @media (min-width: 992px) {
-        .security .security-body .security-body-img img {
-          max-width: 90%;
-          margin: 0 auto; } }
-  .security .security-body .security-body-list {
+  padding: 2em;
+  text-align: center; }
+  .security .security-text .security-text-list {
     margin: 2em; }
-    .security .security-body .security-body-list ul li {
+    .security .security-text .security-text-list ul li {
       color: white;
       border-bottom: 1px;
       border-style: solid;
@@ -1955,19 +1979,117 @@ a img.aligncenter {
       line-height: 1.125rem;
       font-weight: 400; }
       @media (min-width: 992px) {
-        .security .security-body .security-body-list ul li {
+        .security .security-text .security-text-list ul li {
           font-size: 16px;
           line-height: 20px;
           font-size: 1rem;
           line-height: 1.25rem; } }
       @media (min-width: 1200px) {
-        .security .security-body .security-body-list ul li {
+        .security .security-text .security-text-list ul li {
           padding: 1.5em 0em 1.5em 0em;
           font-size: 18px;
           line-height: 20px;
           font-size: 1.125rem;
           line-height: 1.25rem;
           font-weight: 300; } }
+.security .security-img {
+  width: 100%;
+  height: auto; }
+  .security .security-img img {
+    width: 100%;
+    position: relative; }
+
+.security-new {
+  background: url("../res/banner-sign-up@2x.png");
+  background-size: cover;
+  /* or contain depending on what you want */
+  background-position: top bottom;
+  background-repeat: no-repeat;
+  padding: 2em;
+  text-align: center;
+  margin-bottom: 180px; }
+  @media (min-width: 992px) {
+    .security-new .col-img {
+      margin-bottom: -180px; } }
+  .security-new .col-img img {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+  @media (min-width: 1440px) {
+    .security-new .col-img {
+      padding: 0 5em; } }
+  .security-new .col-body {
+    text-align: left; }
+    .security-new .col-body h6 {
+      margin-left: 2em;
+      margin-right: 6em; }
+    .security-new .col-body ul {
+      margin-left: 2em;
+      margin-right: 7em; }
+      .security-new .col-body ul li {
+        color: white;
+        border-bottom: 1px;
+        border-style: solid;
+        border-color: #d8d8d8;
+        padding: 1em 0em 1em 0em;
+        font-size: 14px;
+        line-height: 18px;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+        font-weight: 400; }
+        @media (min-width: 992px) {
+          .security-new .col-body ul li {
+            font-size: 16px;
+            line-height: 20px;
+            font-size: 1rem;
+            line-height: 1.25rem; } }
+        @media (min-width: 1200px) {
+          .security-new .col-body ul li {
+            padding: 1.5em 0em 1.5em 0em;
+            font-size: 18px;
+            line-height: 20px;
+            font-size: 1.125rem;
+            line-height: 1.25rem;
+            font-weight: 300; } }
+  .security-new .security-img {
+    width: 100%;
+    height: auto; }
+    .security-new .security-img img {
+      width: 100%;
+      position: relative; }
+
+.technology {
+  margin-top: -5em auto 2em auto;
+  padding: 2em 2em 6em 2em; }
+  .technology .technology-title {
+    text-align: center; }
+  .technology .technology-imgcontainer .technology-imgcontainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center; }
+    .technology .technology-imgcontainer .technology-imgcontainer1 .technology-imgcontainer1-img {
+      width: calc(100% / 2);
+      min-width: calc(100% / 2);
+      display: block; }
+      @media (min-width: 768px) {
+        .technology .technology-imgcontainer .technology-imgcontainer1 .technology-imgcontainer1-img {
+          width: 33.33333333%;
+          min-width: 33.33333333%; } }
+      @media (min-width: 992px) {
+        .technology .technology-imgcontainer .technology-imgcontainer1 .technology-imgcontainer1-img {
+          width: 20%;
+          min-width: 20%; } }
+      @media (min-width: 1200px) {
+        .technology .technology-imgcontainer .technology-imgcontainer1 .technology-imgcontainer1-img {
+          width: 10%;
+          min-width: 10%; } }
+      .technology .technology-imgcontainer .technology-imgcontainer1 .technology-imgcontainer1-img img {
+        max-width: 80%;
+        display: block;
+        margin: auto;
+        padding: .5em; }
 
 /*!
  * Hamburgers
@@ -2317,7 +2439,8 @@ a img.aligncenter {
       padding: 0 10% 0 10%; }
     .hero .hero-board p {
       display: inline-block;
-      width: 75%; }
+      width: 75%;
+      margin-bottom: 3em; }
     .hero .hero-board a {
       margin-top: 2em;
       margin-bottom: 3em; }
@@ -2354,6 +2477,12 @@ Body Container
   .footer ul {
     align-self: center;
     display: flex; }
+
+.blog .blog-row .blog-row-col .block-row-col-img img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block; }
 
 .title {
   text-align: center;
