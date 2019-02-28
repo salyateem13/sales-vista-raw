@@ -1,0 +1,100 @@
+.pricing{
+    margin: 0 !important;
+    padding: 0em !important;
+    .pricing-container{
+        background-color: $green;
+        margin: 2em !important;
+        padding: 2em;
+        height: auto;
+        @include breakpoint($sm){
+            background-color: transparent ;
+            margin: 1em;
+            padding: 0;
+        }
+        .pricing-container-img{
+            display: none;
+            width: 100%;
+            @include breakpoint($sm){
+                display: block;
+            }
+            img{
+                width: 100%;
+                height: auto;
+                display: block;
+                @include breakpoint($lg){
+                    max-width: 65%;
+                    margin: 0 auto;
+
+                }
+                @include breakpoint($lg){
+                    max-width: 60%;
+                    margin: 0 auto;
+
+                }
+            }
+        }
+        .pricing-container-text{
+            float: none ;
+            top: 75%;
+            right:13% !important;
+            padding: .5em;
+            @include breakpoint($sm){
+               position: absolute;
+               top: 46%;
+               right: 15% !important;
+            }
+            @include breakpoint($md){ 
+                top: 65%;
+                right: 15% !important;
+             }
+             @include breakpoint($lg){ 
+                top: 55%;
+                right: 16% !important;
+             }
+             @include breakpoint($xl){ 
+               top: 57%;
+
+             }
+            
+            h2{
+                @include breakpoint($sm){
+                    @include fontsize(33,42) ;
+                    margin-bottom: 0;
+                    
+                }
+                @include breakpoint($md){
+                    @include fontsize(48,52);
+                 }
+            }
+
+            h3{
+                padding: .5em 0 .5em 0;
+                margin-bottom: 0%;
+                font-weight: 400;
+                @include breakpoint($sm){
+                    @include fontsize(28,36) ;                  
+                }
+                
+            }
+            ul{
+                margin-right: 3em;
+                padding: 0 .5em;
+                @include breakpoint($xl){
+                    padding-right: 5em;
+                }
+                li{
+                    border-bottom: 1px;
+                    border-style: solid;
+                    color: white;
+                    padding: .5em 0 .5em 0;
+                    &:first-child{
+                        color: white;
+                        border-top: 1px;
+                        border-style: solid;
+                    }
+                }
+
+            }
+        }
+    }
+}

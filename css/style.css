@@ -2091,6 +2091,97 @@ a img.aligncenter {
         margin: auto;
         padding: .5em; }
 
+.pricing {
+  margin: 0 !important;
+  padding: 0em !important; }
+  .pricing .pricing-container {
+    background-color: #72be1e;
+    margin: 2em !important;
+    padding: 2em;
+    height: auto; }
+    @media (min-width: 768px) {
+      .pricing .pricing-container {
+        background-color: transparent;
+        margin: 1em;
+        padding: 0; } }
+    .pricing .pricing-container .pricing-container-img {
+      display: none;
+      width: 100%; }
+      @media (min-width: 768px) {
+        .pricing .pricing-container .pricing-container-img {
+          display: block; } }
+      .pricing .pricing-container .pricing-container-img img {
+        width: 100%;
+        height: auto;
+        display: block; }
+        @media (min-width: 1200px) {
+          .pricing .pricing-container .pricing-container-img img {
+            max-width: 65%;
+            margin: 0 auto; } }
+        @media (min-width: 1200px) {
+          .pricing .pricing-container .pricing-container-img img {
+            max-width: 60%;
+            margin: 0 auto; } }
+    .pricing .pricing-container .pricing-container-text {
+      float: none;
+      top: 75%;
+      right: 13% !important;
+      padding: .5em; }
+      @media (min-width: 768px) {
+        .pricing .pricing-container .pricing-container-text {
+          position: absolute;
+          top: 46%;
+          right: 15% !important; } }
+      @media (min-width: 992px) {
+        .pricing .pricing-container .pricing-container-text {
+          top: 65%;
+          right: 15% !important; } }
+      @media (min-width: 1200px) {
+        .pricing .pricing-container .pricing-container-text {
+          top: 55%;
+          right: 16% !important; } }
+      @media (min-width: 1440px) {
+        .pricing .pricing-container .pricing-container-text {
+          top: 57%; } }
+      @media (min-width: 768px) {
+        .pricing .pricing-container .pricing-container-text h2 {
+          font-size: 33px;
+          line-height: 42px;
+          font-size: 2.0625rem;
+          line-height: 2.625rem;
+          margin-bottom: 0; } }
+      @media (min-width: 992px) {
+        .pricing .pricing-container .pricing-container-text h2 {
+          font-size: 48px;
+          line-height: 52px;
+          font-size: 3rem;
+          line-height: 3.25rem; } }
+      .pricing .pricing-container .pricing-container-text h3 {
+        padding: .5em 0 .5em 0;
+        margin-bottom: 0%;
+        font-weight: 400; }
+        @media (min-width: 768px) {
+          .pricing .pricing-container .pricing-container-text h3 {
+            font-size: 28px;
+            line-height: 36px;
+            font-size: 1.75rem;
+            line-height: 2.25rem; } }
+      .pricing .pricing-container .pricing-container-text ul {
+        margin-right: 3em;
+        padding: 0 .5em; }
+        @media (min-width: 1440px) {
+          .pricing .pricing-container .pricing-container-text ul {
+            padding-right: 5em; } }
+        .pricing .pricing-container .pricing-container-text ul li {
+          border-bottom: 1px;
+          border-style: solid;
+          color: white;
+          padding: .5em 0 .5em 0; }
+          .pricing .pricing-container .pricing-container-text ul li:first-child {
+            color: white;
+            border-top: 1px;
+            border-style: solid; }
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -2478,15 +2569,17 @@ Body Container
     align-self: center;
     display: flex; }
 
-.blog .blog-row .blog-row-col .block-row-col-img img {
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
-  display: block; }
+.blog {
+  padding-top: 3em; }
+  .blog .blog-row .blog-row-col img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block; }
 
 .title {
   text-align: center;
-  padding: 3em 2em 0em 2em; }
+  padding: 5em 2em 0em 2em; }
   @media (min-width: 992px) {
     .title {
       padding: 5em 6em 1em 6em; } }

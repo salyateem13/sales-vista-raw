@@ -1,15 +1,15 @@
 .blog{
+    padding-top: 3em;
     .blog-row{
         .blog-row-col{
 
-            .block-row-col-img{
-                img{
-                    max-width:100%; 
-                max-height:100%;
-                margin:auto;
+            img{
+                 width:100%; 
+                height:auto;
+                margin:0 auto;
                 display:block;
                 }
-            }
+            
         }
     }
 }
