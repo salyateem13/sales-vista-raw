@@ -616,7 +616,8 @@ ul li {
 
 /*Add all grid options in here*/
 .wrap {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1440px;
   width: 100%;
   padding-left: 15px;
@@ -1619,6 +1620,48 @@ a img.aligncenter {
   overflow: hidden;
   overflow-x: auto;
   white-space: nowrap; }
+
+.contact {
+  max-width: 1100px; }
+  .contact .contact-formcontainer {
+    width: 100%;
+    padding: 2em; }
+    .contact .contact-formcontainer .contact-formcontainer-input {
+      padding: .25em !important; }
+      .contact .contact-formcontainer .contact-formcontainer-input span textarea {
+        height: 220px !important;
+        padding: 20px !important; }
+      .contact .contact-formcontainer .contact-formcontainer-input span .form-control {
+        border-radius: 6px !important;
+        height: 50px;
+        font-size: 15px;
+        width: 100%;
+        color: #4a4a4a;
+        border: 0.5px solid #979797 !important;
+        box-shadow: none !important;
+        padding: 10px 20px; }
+    .contact .contact-formcontainer .contact-formcontainer-submit button {
+      display: block;
+      margin: 0 auto; }
+  .contact .contact-mapcontainer {
+    padding: 2em 2em 2em 2em; }
+    .contact .contact-mapcontainer .contact-mapcontainer-map {
+      width: 100%; }
+      .contact .contact-mapcontainer .contact-mapcontainer-map img {
+        display: block;
+        width: 90%;
+        height: auto;
+        border-radius: 3.6px; }
+    .contact .contact-mapcontainer .contact-mapcontainer-text {
+      margin-top: 2em; }
+      .contact .contact-mapcontainer .contact-mapcontainer-text p {
+        text-align: left;
+        border-bottom: #d8d8d8 solid 1px;
+        margin: 10px 0; }
+        .contact .contact-mapcontainer .contact-mapcontainer-text p span {
+          font-weight: 500; }
+        .contact .contact-mapcontainer .contact-mapcontainer-text p:last-child {
+          border-bottom: transparent solid 3px; }
 
 .cta {
   background: url("../res/group-8@2x.png");

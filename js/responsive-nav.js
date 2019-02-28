@@ -1,5 +1,9 @@
-$(document).ready(function() {              // attach a handler to an event for the elements        
-   
+$(document).ready(function() {     
+  
+  // attach a handler to an event for the elements        
+  if( $(".title").css('background-color') == " transparent") {
+    $('#header').addClass('dark-background');
+  }
     $("#hamburgerIcon").bind('click', function(e) {
  //dom event fired
         $("#hamburgerIcon").toggleClass('is-active');
@@ -22,17 +26,23 @@ $(document).ready(function() {              // attach a handler to an event for 
         
       });
 
+      
+      
    
 });
 
 $(window).scroll(function(){
+
+  if($('div').hasClass('hero')){
+
+  
     var sticky = $('.headermb'),
         scroll = $(window).scrollTop();
   
     if (scroll >= 1) sticky.addClass('dark-background');
     else sticky.removeClass('dark-background');
 
-
+  }
 
 
   });

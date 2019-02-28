@@ -1,6 +1,8 @@
 .title{
+   
     text-align: center;
     padding: 5em 2em 0em 2em;
+   
     @include breakpoint($md){
         padding: 5em 6em 1em 6em;
     }
